@@ -4,10 +4,11 @@ from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
 from openai import OpenAI
 
-SBR_WS_CDP = 'wss://brd-customer-hl_9720de3a-zone-real_estate:42c9d0uh6cag@brd.superproxy.io:9222'
+SBR_WS_CDP = 'wss://brd-customer-hl_41345ae3-zone-scraping_browser1:fabvcm73dd0u@brd.superproxy.io:9222'
 BASE_URL = "https://www.zillow.com"
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 LOCATION = "San Jose, CA"
+#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
 
 def extract_property_details(input):
     print("Extracting property details...")
@@ -61,18 +62,22 @@ async def run(pw):
         await page.wait_for_load_state("load")
 
         try:
+            
             # Wait for the property list to become visible (using the proper selector)
-            await page.wait_for_selector('article.list-card', state='visible', timeout=60000)
+            print("Hold On", page)
+            await page.wait_for_selector('.StyledPropertyCard-c11n-8-106-0__sc-g2ckw9-0', state='visible', timeout=60000)
         except TimeoutError:
             print("Timeout error: Element 'article.list-card' not visible within 60 seconds.")
             return
 
-        content = await page.inner_html('ul.listings')
+    
+        content = await page.inner_html('ul.StyledCarouselScrollContainer-c11n-8-106-0__sc-1jrjjf3-0', timeout=60000)
+        #print(content)
         soup = BeautifulSoup(content, "html.parser")
         results = []
 
         # Use the updated selector for each listing
-        for idx, div in enumerate(soup.find_all("article", class_="list-card")):
+        for idx, div in enumerate(soup.find_all("article", class_="StyledPropertyCard-c11n-8-106-0__sc-g2ckw9-0 jxPojq")):
             link = div.find('a')['href']
             data = {
                 "address": div.find('address').text if div.find('address') else "",
@@ -81,12 +86,15 @@ async def run(pw):
             }
 
             print("Navigating to the listing page", data['link'])
-            await page.goto(data['link'])
+            await page.goto(data['link'], timeout=120000)
             await page.wait_for_load_state("load")
 
             # Wait for property details to load
-            await page.wait_for_selector('div[data-testid="property-details"]', timeout=60000)
-            content = await page.inner_html('div[data-testid="property-details"]')
+            # await page.wait_for_selector('div[data-testid="property-overview"]', state='visible', timeout=60000)
+            # content = await page.inner_html('div[data-testid="property-overview"]')
+            await page.wait_for_selector('[data-test="property-card"]', state='visible', timeout=60000)
+            content = await page.inner_html('[data-test="property-card"]')
+            print(content)
             soup = BeautifulSoup(content, "html.parser")
 
             # Extract property details
