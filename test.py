@@ -2,7 +2,7 @@ import asyncio
 import json
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
-from openai import OpenAI
+#from openai import OpenAI
 
 SBR_WS_CDP = 'wss://brd-customer-hl_41345ae3-zone-scraping_browser1:fabvcm73dd0u@brd.superproxy.io:9222'
 BASE_URL = "https://www.zillow.com"
