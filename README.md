@@ -19,7 +19,7 @@ This project is a **Real Estate Listing Website** that provides users with prope
 ### 1️⃣ **Clone the Repository**
 ```bash
 # Using Git
-git clone https://github.com/your-username/real-estate-project.git
+git clone https://github.com/zeynnepps/RealHaven.git
 cd real-estate-project
 ```
 
