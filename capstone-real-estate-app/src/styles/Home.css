@@ -114,3 +114,194 @@
   .property-card a:hover {
     background: linear-gradient(to right, #ff4b2b, #ff416c);
   }
+/* Home.css */
+
+.home-container {
+  position: relative; /* Make the container relative for absolute positioning */
+}
+
+.login-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px 16px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.login-modal-overlay {
+  position: fixed; /* Cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensure it's above other elements */
+}
+
+.login-modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px; /* Adjust as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative; /* Needed for close button positioning */
+}
+
+.login-modal h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-modal label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-modal input[type="text"],
+.login-modal input[type="email"],
+.login-modal input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Important for padding to be included in width */
+}
+
+.login-modal button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-modal button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.login-modal .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Top Buttons (Buy and Rent) */
+.top-buttons {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  display: flex;
+}
+
+.buy-button,
+.rent-button {
+  background-color: transparent;
+  border: none;
+  color: #444; /* Dark gray color */
+  padding: 12px 24px; /* Increased padding for larger size */
+  margin-right: 10px;
+  font-size: 18px; /* Increased font size */
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold; /* Make the font bold */
+}
+
+.buy-button:hover,
+.rent-button:hover {
+  background-color: #e9ecef; /* Light gray on hover */
+}
+
+.home-container {
+  position: relative; /* Ensure relative positioning for absolute elements */
+}
+
+.tab-buttons {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: flex-start; /* Align to the left */
+}
+
+.tab-button {
+  border: none;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px; /* Increased font size */
+  cursor: pointer;
+  border-bottom: 2px solid transparent; /* Initially transparent */
+}
+
+.tab-button.active {
+  border-bottom: 2px solid #007bff; /* Blue underline for active tab */
+  color: #007bff;
+  font-weight: bold; /* Make active tab bold */
+}
+
+.tab-button {
+  text-align: left; /* Align text to the left */
+  margin-right: 20px; /* Add space between buttons */
+}
+
+.tab-buttons {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: flex-start; /* Align to the left */
+}
+
+.tab-button {
+  border: none;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px; /* Increased font size */
+  cursor: pointer;
+  border-bottom: 2px solid transparent; /* Initially transparent */
+}
+
+.tab-button.active {
+  border-bottom: 2px solid #007bff; /* Blue underline for active tab */
+  color: #007bff;
+  font-weight: bold; /* Make active tab bold */
+}
+
+.tab-button {
+  text-align: left; /* Align text to the left */
+  margin-right: 20px; /* Add space between buttons */
+}
+
+.submit-button {
+    /* Add a margin below the Sign In button */
+    margin-bottom: 20px;
+     /* Use a blue background color */
+  background-color: #007bff;
+  color: #fff; /* White text */
+  padding: 14px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;  /*Increased font size*/
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+   /* Darken the button on hover */
+  background-color: #0056b3;
+}
