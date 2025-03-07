@@ -212,6 +212,7 @@
 }
 
 .buy-button,
+.sell-button,
 .rent-button {
   background-color: transparent;
   border: none;
@@ -305,3 +306,4 @@
    /* Darken the button on hover */
   background-color: #0056b3;
 }
+
