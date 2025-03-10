@@ -7,7 +7,6 @@ from playwright.async_api import async_playwright
 SBR_WS_CDP = 'wss://brd-customer-hl_41345ae3-zone-scraping_browser1:fabvcm73dd0u@brd.superproxy.io:9222'
 BASE_URL = "https://www.zillow.com"
 LOCATION = "San Jose, CA"
-#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
 
 def extract_property_details(content):
     print("Extracting property details...")
