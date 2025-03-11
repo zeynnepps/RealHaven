@@ -54,7 +54,7 @@ single_family_data = []
 # Generate 251 AI-generated apartments because our dataset have this number of apartments
 apartment_prompt = "A beautifully designed apartment building that looks realistic but is completely AI-generated. Modern architecture with large windows, balconies, and a welcoming entrance."
 
-for i in range(2):
+for i in range(251):
     filename = f"{apartment_dir}/apartment_{i+1}.jpg"
     image_url = generate_ai_image(apartment_prompt, filename)
     if image_url:
