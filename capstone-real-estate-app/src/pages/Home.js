@@ -8,13 +8,13 @@ const Home = () => {
   const [isLoginForm, setLoginForm] = useState(false);
   const [isSignupForm, setSignupForm] = useState(false);
   const [isOpenPopup, setIsOpenPopup] = useState(false);
-  
+  const [filteredProperties, setfilteredProperties] = useState([])
 
-  const filteredProperties = properties.filter(
-    (property) =>
-      property.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      property.location.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  // const filteredProperties = properties.filter(
+  //   (property) =>
+  //     property.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+  //     property.location.toLowerCase().includes(searchTerm.toLowerCase())
+  // );
 
   const openLoginForm = () => {
     setLoginForm(true);
@@ -32,6 +32,18 @@ const Home = () => {
     setSignupForm(true);
     setLoginForm(false)
   };
+
+  const fetchPropertyDetails = async () =>{
+    try{
+       const response = await fetch('http://127.0.0.1:8000/api/properties/');
+       console.log("response...", response);
+       const data = await response.json();
+       setfilteredProperties(data);
+     //  console.log("Data....", data);
+    }catch(e){
+      console.log("error..", e)
+    }
+  }
 
   return (
     <div className="home-container">
@@ -55,10 +67,11 @@ const Home = () => {
         style={{ width: "600px", height: "40px", fontSize: "16px" }} // Adjusted inline styles
         className="search-input"
       />
+      <button onClick={fetchPropertyDetails}>Search</button>
 
       <div className="property-list">
         {filteredProperties.map((property) => (
-          <PropertyCard key={property.id} property={property} />
+           <PropertyCard key={property.id} property={property}/>
         ))}
       </div>
 
