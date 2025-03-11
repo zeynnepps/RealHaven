@@ -50,7 +50,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 30px;
-    background: linear-gradient(to bottom, #f8f9fa, #e0eafc);
+    background-image: unset;
   }
   
   /* Property Card */
@@ -135,6 +135,51 @@
   cursor: pointer;
   border-radius: 4px;
   z-index: 1000; /* Ensure it's above other elements */
+}
+
+.search-button {
+  position: relative;
+  left:4px;
+  padding: 8px 16px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  z-index: 1000; /* Ensure it's above other elements */
+}
+.search-type{
+  position: relative;
+  padding: 8px 16px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+  z-index: 1000; /* Ensure it's above other elements */
+left: -5px;
+display: flex;
+justify-content: left;
+margin-left: 165px;
+
+}
+.input-search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-style{
+  width:250px;
+  height: 250px;
 }
 
 .login-modal-overlay {
@@ -233,6 +278,7 @@
 
 .home-container {
   position: relative; /* Ensure relative positioning for absolute elements */
+  background-image: url('/public/images/la.jpg');
 }
 
 .tab-buttons {
