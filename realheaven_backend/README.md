@@ -26,10 +26,10 @@ pip install djangorestframework
 
 #delete old data and update new dataset
 
-python manage.py shell
-from listings.models import Property
-Property.objects.all().delete()
-exit()
+1.python manage.py shell
+2.from listings.models import Property
+3.Property.objects.all().delete()
+4.exit()
 
 #import new dataset
 python manage.py import_properties

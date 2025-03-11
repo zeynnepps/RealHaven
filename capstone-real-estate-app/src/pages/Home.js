@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import properties from "../data/properties";
 import PropertyCard from "../components/PropertyCard";
 import "../styles/Home.css";
 
@@ -8,13 +7,8 @@ const Home = () => {
   const [isLoginForm, setLoginForm] = useState(false);
   const [isSignupForm, setSignupForm] = useState(false);
   const [isOpenPopup, setIsOpenPopup] = useState(false);
-  const [filteredProperties, setfilteredProperties] = useState([])
-
-  // const filteredProperties = properties.filter(
-  //   (property) =>
-  //     property.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-  //     property.location.toLowerCase().includes(searchTerm.toLowerCase())
-  // );
+  const [filteredProperties, setfilteredProperties] = useState([]);
+  const [selectedValue, setSelectedValue] = useState('0');
 
   const openLoginForm = () => {
     setLoginForm(true);
@@ -33,9 +27,19 @@ const Home = () => {
     setLoginForm(false)
   };
 
+  // Handle change in dropdown selection
+  const handleChange = (event) => {
+   
+    setSelectedValue(event.target.value);
+    if(searchTerm && searchTerm != ""){
+      setSearchTerm("");
+    }
+  };
+
+
   const fetchPropertyDetails = async () =>{
     try{
-       const response = await fetch('http://127.0.0.1:8000/api/properties/');
+       const response = await fetch('http://127.0.0.1:8000/api/properties/search/?'+selectedValue+'='+searchTerm);
        console.log("response...", response);
        const data = await response.json();
        setfilteredProperties(data);
@@ -54,26 +58,37 @@ const Home = () => {
         <button className="sell-button">Sell</button>
       </div>
 
-      <h1 className="home-title">Welcome to the Real Haven</h1>
+      <h1 className="home-title">Welcome to the Real Haven
+     </h1>
+     <img src="images/logo.jpeg" class="logo-style"></img>
       <button className="login-button" onClick={openLoginForm}>
         Login
       </button>
-
+      
+      <div class="input-search">
+      <div>
+      <select class="search-type" value={selectedValue} onChange={handleChange}>
+        <option value='0'>Search Type</option>
+        <option value='zip_code'>Zipcode</option>
+        <option value='address'>Address</option>
+        <option value='property_type'>Property Type</option>
+      </select>
+      </div>
       <input
         type="text"
         placeholder="Enter an address, neighborhood, city, or ZIP code"
-        value={searchTerm}
+        value={searchTerm} disabled={selectedValue === '0'}
         onChange={(e) => setSearchTerm(e.target.value)}
         style={{ width: "600px", height: "40px", fontSize: "16px" }} // Adjusted inline styles
         className="search-input"
       />
-      <button onClick={fetchPropertyDetails}>Search</button>
-
-      <div className="property-list">
+      <button className="search-button" onClick={fetchPropertyDetails}>Search</button>
+      </div>
+      {filteredProperties.length > 0 && <div className="property-list" >
         {filteredProperties.map((property) => (
            <PropertyCard key={property.id} property={property}/>
         ))}
-      </div>
+      </div>}
 
       {isOpenPopup && (
         <div className="login-modal-overlay">
