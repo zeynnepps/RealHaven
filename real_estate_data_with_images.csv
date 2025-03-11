@@ -1,501 +1,501 @@
-Street Address,City,State,ZIP Code,Price,Bedrooms,Bathrooms,Square Footage,Property Type,Image_Path
-6957 Blossom Hill Road,San Jose,CA,95132,2850000,5,4,2596,Single Family,property_images/single_family_images/4311_Main_St.jpg
-1265 Lelong St,San Jose,CA,95158,1483000,6,4,1796,Apartment,property_images/apartment_images/7446_Main_St.jpg
-8607 Pomeroy Ave,San Jose,CA,95160,649000,4,4,3511,Apartment,property_images/apartment_images/2515_Main_St.jpg
-1719 Berryessa Rd,San Jose,CA,95128,1177000,1,4,1427,Apartment,property_images/apartment_images/6960_Main_St.jpg
-7088 Piedmont Rd,San Jose,CA,95183,2136000,2,2,4544,Apartment,property_images/apartment_images/3687_Main_St.jpg
-2135 South Bascom Ave,San Jose,CA,95172,1735000,5,3,4591,Single Family,property_images/single_family_images/4219_Main_St.jpg
-1258 Piedmont Rd,San Jose,CA,95128,2075000,6,2,3452,Apartment,property_images/apartment_images/7641_Main_St.jpg
-6417 Santa Teresa Blvd,San Jose,CA,95125,2670000,2,2,4339,Single Family,property_images/single_family_images/599_Main_St.jpg
-9218 South Bascom Ave,San Jose,CA,95171,1427000,3,4,3068,Single Family,property_images/single_family_images/3134_Main_St.jpg
-1020 Almaden Rd,San Jose,CA,95174,1143000,6,2,835,Apartment,property_images/apartment_images/7649_Main_St.jpg
-6815 Monterey Hwy,San Jose,CA,95144,1661000,3,3,1749,Single Family,property_images/single_family_images/8400_Main_St.jpg
-4273 Muirwood Dr,San Jose,CA,95172,1299000,4,1,1720,Single Family,property_images/single_family_images/8533_Main_St.jpg
-4269 Silver Creek Valley Rd,San Jose,CA,95142,1923000,2,2,3848,Apartment,property_images/apartment_images/7480_Main_St.jpg
-9585 Santa Teresa Blvd,San Jose,CA,95170,1257000,2,4,878,Apartment,property_images/apartment_images/1565_Main_St.jpg
-7275 Brophy Ct,San Jose,CA,95115,2190000,2,1,4527,Apartment,property_images/apartment_images/7108_Main_St.jpg
-6020 Jackson Ave,San Jose,CA,95136,574000,2,2,2211,Single Family,property_images/single_family_images/374_Main_St.jpg
-6088 Mabury Rd,San Jose,CA,95123,1745000,3,3,4415,Apartment,property_images/apartment_images/7459_Main_St.jpg
-4568 Muirwood Dr,San Jose,CA,95141,2507000,1,4,3976,Single Family,property_images/single_family_images/4173_Main_St.jpg
-7271 Jackson Ave,San Jose,CA,95113,2276000,3,4,1193,Apartment,property_images/apartment_images/2889_Main_St.jpg
-2426 Santa Teresa Blvd,San Jose,CA,95171,2537000,6,2,4595,Single Family,property_images/single_family_images/9496_Main_St.jpg
-4760 South Bascom Ave,San Jose,CA,95127,1218000,6,1,2677,Apartment,property_images/apartment_images/2687_Main_St.jpg
-4991 Piedmont Rd,San Jose,CA,95180,1183000,1,4,4470,Apartment,property_images/apartment_images/2074_Main_St.jpg
-9760 Silver Creek Valley Rd,San Jose,CA,95190,823000,6,1,3206,Apartment,property_images/apartment_images/6781_Main_St.jpg
-4635 Silver Creek Valley Rd,San Jose,CA,95157,2795000,6,4,1507,Single Family,property_images/single_family_images/2077_Main_St.jpg
-4804 McLaughlin Ave,San Jose,CA,95186,3000000,1,1,3619,Single Family,property_images/single_family_images/2843_Main_St.jpg
-4780 Berryessa Rd,San Jose,CA,95193,697000,2,4,1382,Apartment,property_images/apartment_images/9308_Main_St.jpg
-7437 Santa Teresa Blvd,San Jose,CA,95138,1999000,4,1,2814,Single Family,property_images/single_family_images/7960_Main_St.jpg
-8078 McKee Rd,San Jose,CA,95198,590000,1,2,1615,Apartment,property_images/apartment_images/3439_Main_St.jpg
-7553 Quimby Rd,San Jose,CA,95185,558000,3,1,3212,Apartment,property_images/apartment_images/5614_Main_St.jpg
-4149 McLaughlin Ave,San Jose,CA,95142,2276000,5,3,1921,Apartment,property_images/apartment_images/1360_Main_St.jpg
-7770 Tully Rd,San Jose,CA,95132,2215000,1,1,2781,Single Family,property_images/single_family_images/2112_Main_St.jpg
-3668 Berryessa Rd,San Jose,CA,95122,2431000,4,3,3886,Apartment,property_images/apartment_images/467_Main_St.jpg
-9096 Monterey Hwy,San Jose,CA,95180,2035000,2,4,3387,Apartment,property_images/apartment_images/1056_Main_St.jpg
-9241 Mabury Rd,San Jose,CA,95116,1538000,1,2,1530,Single Family,property_images/single_family_images/429_Main_St.jpg
-4496 El Camino Real,San Jose,CA,95137,2851000,3,1,4599,Apartment,property_images/apartment_images/4529_Main_St.jpg
-1680 Tully Rd,San Jose,CA,95152,1425000,3,1,4666,Apartment,property_images/apartment_images/6568_Main_St.jpg
-8047 King Rd,San Jose,CA,95175,2083000,1,3,2426,Single Family,property_images/single_family_images/2454_Main_St.jpg
-9274 King Rd,San Jose,CA,95144,2333000,4,3,2774,Single Family,property_images/single_family_images/4991_Main_St.jpg
-5132 Brophy Ct,San Jose,CA,95153,1772000,6,4,4734,Apartment,property_images/apartment_images/7612_Main_St.jpg
-1811 Blossom Hill Road,San Jose,CA,95113,1967000,5,4,4042,Apartment,property_images/apartment_images/7451_Main_St.jpg
-7026 Lelong St,San Jose,CA,95146,2536000,2,3,2699,Single Family,property_images/single_family_images/5974_Main_St.jpg
-1090 Lick Mill Blvd,San Jose,CA,95113,1652000,5,4,4394,Single Family,property_images/single_family_images/2596_Main_St.jpg
-9543 Pomeroy Ave,San Jose,CA,95194,1870000,2,1,4392,Apartment,property_images/apartment_images/2415_Main_St.jpg
-4142 King Rd,San Jose,CA,95164,640000,6,3,2546,Apartment,property_images/apartment_images/434_Main_St.jpg
-1674 Pomeroy Ave,San Jose,CA,95184,1772000,1,2,4116,Single Family,property_images/single_family_images/6245_Main_St.jpg
-2544 Pomeroy Ave,San Jose,CA,95180,605000,4,3,820,Single Family,property_images/single_family_images/6595_Main_St.jpg
-4235 Monterey Hwy,San Jose,CA,95197,1179000,2,4,2344,Single Family,property_images/single_family_images/5444_Main_St.jpg
-5498 Lick Mill Blvd,San Jose,CA,95171,2624000,1,2,4050,Apartment,property_images/apartment_images/9323_Main_St.jpg
-5536 Fairway Drive,San Jose,CA,95137,1428000,3,2,3263,Apartment,property_images/apartment_images/3922_Main_St.jpg
-9926 Jackson Ave,San Jose,CA,95117,914000,3,4,1122,Single Family,property_images/single_family_images/5510_Main_St.jpg
-1346 Brophy Ct,San Jose,CA,95141,959000,3,2,3790,Apartment,property_images/apartment_images/6582_Main_St.jpg
-3887 King Rd,San Jose,CA,95116,2529000,3,4,1910,Single Family,property_images/single_family_images/1652_Main_St.jpg
-4549 Piedmont Rd,San Jose,CA,95173,2237000,1,4,1668,Single Family,property_images/single_family_images/6322_Main_St.jpg
-8932 Berryessa Rd,San Jose,CA,95112,2509000,1,3,3275,Apartment,property_images/apartment_images/7067_Main_St.jpg
-2641 Lick Mill Blvd,San Jose,CA,95170,2270000,2,2,1360,Apartment,property_images/apartment_images/2599_Main_St.jpg
-7847 Senter Rd,San Jose,CA,95142,1634000,5,2,4205,Apartment,property_images/apartment_images/9669_Main_St.jpg
-1239 Quimby Rd,San Jose,CA,95142,989000,1,4,4314,Single Family,property_images/single_family_images/1204_Main_St.jpg
-4506 McKee Rd,San Jose,CA,95120,2615000,6,3,1382,Single Family,property_images/single_family_images/7674_Main_St.jpg
-2824 Lelong St,San Jose,CA,95125,2946000,5,3,3368,Single Family,property_images/single_family_images/6562_Main_St.jpg
-9453 Blossom Hill Road,San Jose,CA,95119,2574000,5,2,2904,Single Family,property_images/single_family_images/1381_Main_St.jpg
-6205 Quimby Rd,San Jose,CA,95116,1990000,6,2,4047,Single Family,property_images/single_family_images/7589_Main_St.jpg
-4797 Piedmont Rd,San Jose,CA,95156,1725000,1,1,4939,Apartment,property_images/apartment_images/9542_Main_St.jpg
-4476 Pomeroy Ave,San Jose,CA,95147,794000,2,4,3775,Single Family,property_images/single_family_images/2785_Main_St.jpg
-9761 Fairway Drive,San Jose,CA,95146,2018000,1,4,837,Apartment,property_images/apartment_images/7240_Main_St.jpg
-8777 Fairway Drive,San Jose,CA,95192,557000,5,3,4216,Apartment,property_images/apartment_images/8709_Main_St.jpg
-6410 Monterey Hwy,San Jose,CA,95172,1083000,5,4,2233,Apartment,property_images/apartment_images/7274_Main_St.jpg
-3018 Almaden Rd,San Jose,CA,95112,2902000,5,4,3914,Apartment,property_images/apartment_images/8014_Main_St.jpg
-4500 Jackson Ave,San Jose,CA,95140,1105000,4,2,3400,Single Family,property_images/single_family_images/9678_Main_St.jpg
-7203 Silver Creek Valley Rd,San Jose,CA,95198,1165000,1,2,2160,Single Family,property_images/single_family_images/2099_Main_St.jpg
-5903 Berryessa Rd,San Jose,CA,95197,817000,5,3,2209,Single Family,property_images/single_family_images/2804_Main_St.jpg
-2135 Fairway Drive,San Jose,CA,95198,2311000,4,1,2775,Apartment,property_images/apartment_images/9531_Main_St.jpg
-5300 Almaden Rd,San Jose,CA,95187,735000,1,3,810,Single Family,property_images/single_family_images/4806_Main_St.jpg
-5512 El Camino Real,San Jose,CA,95176,1841000,1,1,956,Apartment,property_images/apartment_images/9277_Main_St.jpg
-1650 Berryessa Rd,San Jose,CA,95175,2996000,4,1,1973,Apartment,property_images/apartment_images/2072_Main_St.jpg
-4341 Pomeroy Ave,San Jose,CA,95110,1861000,4,3,2220,Apartment,property_images/apartment_images/1554_Main_St.jpg
-4206 McKee Rd,San Jose,CA,95157,2724000,4,4,2131,Apartment,property_images/apartment_images/8648_Main_St.jpg
-1968 Berryessa Rd,San Jose,CA,95186,1346000,2,4,3109,Single Family,property_images/single_family_images/7685_Main_St.jpg
-2047 Lelong St,San Jose,CA,95185,2342000,3,1,3666,Apartment,property_images/apartment_images/772_Main_St.jpg
-9897 Blossom Hill Road,San Jose,CA,95197,2017000,2,3,1209,Apartment,property_images/apartment_images/6130_Main_St.jpg
-8789 Lelong St,San Jose,CA,95151,2846000,1,1,822,Apartment,property_images/apartment_images/4608_Main_St.jpg
-6996 South Bascom Ave,San Jose,CA,95198,1453000,3,3,4945,Single Family,property_images/single_family_images/3279_Main_St.jpg
-2003 Senter Rd,San Jose,CA,95179,1143000,3,3,3279,Apartment,property_images/apartment_images/2953_Main_St.jpg
-1786 Lelong St,San Jose,CA,95178,2774000,6,4,1960,Single Family,property_images/single_family_images/1331_Main_St.jpg
-4593 Silver Creek Valley Rd,San Jose,CA,95113,1134000,3,2,4649,Apartment,property_images/apartment_images/8454_Main_St.jpg
-2444 Silver Creek Valley Rd,San Jose,CA,95149,2871000,3,3,3960,Apartment,property_images/apartment_images/7975_Main_St.jpg
-4355 Tully Rd,San Jose,CA,95141,1086000,1,1,3853,Single Family,property_images/single_family_images/9179_Main_St.jpg
-1884 Brophy Ct,San Jose,CA,95157,1563000,6,4,4228,Apartment,property_images/apartment_images/9324_Main_St.jpg
-4766 Santa Teresa Blvd,San Jose,CA,95186,599000,1,3,4114,Single Family,property_images/single_family_images/1563_Main_St.jpg
-3041 Berryessa Rd,San Jose,CA,95175,2754000,6,3,4507,Single Family,property_images/single_family_images/6626_Main_St.jpg
-1351 Fairway Drive,San Jose,CA,95183,2859000,5,4,2329,Single Family,property_images/single_family_images/5264_Main_St.jpg
-4525 Tully Rd,San Jose,CA,95125,803000,5,3,1465,Apartment,property_images/apartment_images/5922_Main_St.jpg
-5866 Quimby Rd,San Jose,CA,95127,2883000,2,3,4321,Apartment,property_images/apartment_images/8816_Main_St.jpg
-8462 Brophy Ct,San Jose,CA,95190,2104000,2,3,1601,Apartment,property_images/apartment_images/4287_Main_St.jpg
-7013 Tully Rd,San Jose,CA,95120,2633000,3,1,2667,Single Family,property_images/single_family_images/3496_Main_St.jpg
-2553 Almaden Rd,San Jose,CA,95153,1372000,4,2,3493,Apartment,property_images/apartment_images/5883_Main_St.jpg
-6747 Santa Teresa Blvd,San Jose,CA,95157,561000,2,2,4432,Single Family,property_images/single_family_images/1386_Main_St.jpg
-8566 Monterey Hwy,San Jose,CA,95167,724000,5,3,1775,Apartment,property_images/apartment_images/4950_Main_St.jpg
-2555 Brophy Ct,San Jose,CA,95113,2846000,5,3,1601,Single Family,property_images/single_family_images/7078_Main_St.jpg
-5771 Quimby Rd,San Jose,CA,95144,2233000,6,3,1064,Apartment,property_images/apartment_images/860_Main_St.jpg
-5047 Muirwood Dr,San Jose,CA,95193,2574000,3,2,1345,Single Family,property_images/single_family_images/913_Main_St.jpg
-7009 Lick Mill Blvd,San Jose,CA,95187,2405000,3,3,2957,Single Family,property_images/single_family_images/1722_Main_St.jpg
-6242 Mabury Rd,San Jose,CA,95196,1215000,1,1,2179,Apartment,property_images/apartment_images/7855_Main_St.jpg
-7357 Berryessa Rd,San Jose,CA,95197,581000,2,2,2727,Single Family,property_images/single_family_images/8780_Main_St.jpg
-3227 Pomeroy Ave,San Jose,CA,95182,2783000,2,3,2014,Single Family,property_images/single_family_images/1278_Main_St.jpg
-4239 Muirwood Dr,San Jose,CA,95139,1297000,6,3,3643,Single Family,property_images/single_family_images/7679_Main_St.jpg
-9763 Quimby Rd,San Jose,CA,95111,2211000,3,3,3934,Apartment,property_images/apartment_images/981_Main_St.jpg
-7191 Santa Teresa Blvd,San Jose,CA,95189,2847000,2,4,2625,Apartment,property_images/apartment_images/8059_Main_St.jpg
-2934 Almaden Rd,San Jose,CA,95186,1654000,4,1,1486,Apartment,property_images/apartment_images/9850_Main_St.jpg
-2432 Lelong St,San Jose,CA,95186,1135000,1,4,2624,Apartment,property_images/apartment_images/4465_Main_St.jpg
-9086 McLaughlin Ave,San Jose,CA,95166,2124000,2,2,1912,Single Family,property_images/single_family_images/6797_Main_St.jpg
-3641 Monterey Hwy,San Jose,CA,95140,1387000,1,1,1296,Single Family,property_images/single_family_images/7487_Main_St.jpg
-8182 Muirwood Dr,San Jose,CA,95111,1880000,4,1,1066,Single Family,property_images/single_family_images/6118_Main_St.jpg
-8555 Pomeroy Ave,San Jose,CA,95178,563000,5,2,1761,Apartment,property_images/apartment_images/5133_Main_St.jpg
-2571 Brophy Ct,San Jose,CA,95154,2133000,3,3,3926,Apartment,property_images/apartment_images/3483_Main_St.jpg
-3713 Brophy Ct,San Jose,CA,95139,2431000,5,2,2365,Apartment,property_images/apartment_images/6017_Main_St.jpg
-9245 Lelong St,San Jose,CA,95171,2323000,2,2,1487,Apartment,property_images/apartment_images/3979_Main_St.jpg
-4030 McKee Rd,San Jose,CA,95172,1024000,4,2,2899,Single Family,property_images/single_family_images/1223_Main_St.jpg
-7494 Jackson Ave,San Jose,CA,95126,533000,4,1,1621,Single Family,property_images/single_family_images/230_Main_St.jpg
-4510 Piedmont Rd,San Jose,CA,95184,1321000,6,3,1457,Apartment,property_images/apartment_images/8338_Main_St.jpg
-6914 Piedmont Rd,San Jose,CA,95142,2910000,1,4,2103,Single Family,property_images/single_family_images/2789_Main_St.jpg
-4380 Lelong St,San Jose,CA,95143,1223000,5,3,3455,Single Family,property_images/single_family_images/921_Main_St.jpg
-5294 McLaughlin Ave,San Jose,CA,95198,1828000,3,3,2375,Apartment,property_images/apartment_images/2234_Main_St.jpg
-3807 McLaughlin Ave,San Jose,CA,95165,2694000,1,2,1802,Apartment,property_images/apartment_images/4063_Main_St.jpg
-1141 Silver Creek Valley Rd,San Jose,CA,95157,971000,5,1,2629,Single Family,property_images/single_family_images/939_Main_St.jpg
-5497 Blossom Hill Road,San Jose,CA,95152,969000,1,1,2087,Single Family,property_images/single_family_images/7521_Main_St.jpg
-6756 Monterey Hwy,San Jose,CA,95168,2216000,6,4,3657,Apartment,property_images/apartment_images/588_Main_St.jpg
-9888 King Rd,San Jose,CA,95138,1943000,3,1,3051,Single Family,property_images/single_family_images/8839_Main_St.jpg
-9531 Senter Rd,San Jose,CA,95194,1014000,4,4,2585,Apartment,property_images/apartment_images/4807_Main_St.jpg
-1440 Santa Teresa Blvd,San Jose,CA,95141,2005000,2,1,3392,Apartment,property_images/apartment_images/9816_Main_St.jpg
-4917 Lick Mill Blvd,San Jose,CA,95125,1669000,2,3,2937,Apartment,property_images/apartment_images/4859_Main_St.jpg
-6976 Blossom Hill Road,San Jose,CA,95151,2919000,2,2,1572,Apartment,property_images/apartment_images/6234_Main_St.jpg
-8999 Lick Mill Blvd,San Jose,CA,95159,1369000,1,1,2255,Single Family,property_images/single_family_images/2353_Main_St.jpg
-8712 Fairway Drive,San Jose,CA,95174,1464000,1,2,4889,Apartment,property_images/apartment_images/7041_Main_St.jpg
-3377 King Rd,San Jose,CA,95153,725000,3,3,4378,Single Family,property_images/single_family_images/9348_Main_St.jpg
-9500 South Bascom Ave,San Jose,CA,95110,1419000,1,3,4626,Apartment,property_images/apartment_images/7356_Main_St.jpg
-3341 McLaughlin Ave,San Jose,CA,95192,1460000,6,3,3667,Apartment,property_images/apartment_images/6071_Main_St.jpg
-7964 Fairway Drive,San Jose,CA,95120,1442000,4,2,1841,Apartment,property_images/apartment_images/8723_Main_St.jpg
-1516 McLaughlin Ave,San Jose,CA,95150,2542000,6,3,4930,Single Family,property_images/single_family_images/7457_Main_St.jpg
-6091 Quimby Rd,San Jose,CA,95141,2868000,1,2,1315,Apartment,property_images/apartment_images/6824_Main_St.jpg
-5380 Jackson Ave,San Jose,CA,95176,617000,3,2,1701,Apartment,property_images/apartment_images/6278_Main_St.jpg
-1519 Tully Rd,San Jose,CA,95113,2567000,2,2,3617,Single Family,property_images/single_family_images/6014_Main_St.jpg
-6128 El Camino Real,San Jose,CA,95182,1570000,3,4,1897,Apartment,property_images/apartment_images/4150_Main_St.jpg
-4509 Tully Rd,San Jose,CA,95195,1227000,6,2,1417,Single Family,property_images/single_family_images/3700_Main_St.jpg
-6702 Piedmont Rd,San Jose,CA,95189,2548000,3,3,4931,Apartment,property_images/apartment_images/7718_Main_St.jpg
-4442 Tully Rd,San Jose,CA,95191,1718000,4,3,4652,Apartment,property_images/apartment_images/4154_Main_St.jpg
-9992 Tully Rd,San Jose,CA,95172,2369000,4,2,3664,Single Family,property_images/single_family_images/8029_Main_St.jpg
-6840 Fairway Drive,San Jose,CA,95118,655000,1,1,2050,Single Family,property_images/single_family_images/3671_Main_St.jpg
-1460 Pomeroy Ave,San Jose,CA,95152,1892000,5,4,3116,Apartment,property_images/apartment_images/8392_Main_St.jpg
-7321 Lick Mill Blvd,San Jose,CA,95130,2336000,6,1,4619,Apartment,property_images/apartment_images/1261_Main_St.jpg
-8155 Quimby Rd,San Jose,CA,95196,642000,1,1,3306,Apartment,property_images/apartment_images/992_Main_St.jpg
-5136 Lelong St,San Jose,CA,95139,1504000,6,3,4033,Single Family,property_images/single_family_images/5890_Main_St.jpg
-2654 Brophy Ct,San Jose,CA,95132,702000,4,2,1137,Apartment,property_images/apartment_images/8121_Main_St.jpg
-6271 Monterey Hwy,San Jose,CA,95152,2686000,6,1,3729,Single Family,property_images/single_family_images/4839_Main_St.jpg
-1271 Blossom Hill Road,San Jose,CA,95123,1900000,1,2,4763,Single Family,property_images/single_family_images/6074_Main_St.jpg
-5509 Blossom Hill Road,San Jose,CA,95164,733000,1,3,4670,Apartment,property_images/apartment_images/9695_Main_St.jpg
-7242 Santa Teresa Blvd,San Jose,CA,95152,2933000,3,3,3272,Apartment,property_images/apartment_images/8207_Main_St.jpg
-8029 King Rd,San Jose,CA,95179,1280000,5,3,1793,Single Family,property_images/single_family_images/5952_Main_St.jpg
-6948 Pomeroy Ave,San Jose,CA,95170,1029000,5,4,1269,Single Family,property_images/single_family_images/5546_Main_St.jpg
-8675 Jackson Ave,San Jose,CA,95158,1223000,5,2,4925,Single Family,property_images/single_family_images/428_Main_St.jpg
-8425 Senter Rd,San Jose,CA,95120,2515000,3,2,3193,Apartment,property_images/apartment_images/8274_Main_St.jpg
-5100 Pomeroy Ave,San Jose,CA,95170,1131000,1,1,4928,Single Family,property_images/single_family_images/8934_Main_St.jpg
-7530 Silver Creek Valley Rd,San Jose,CA,95180,758000,5,1,2495,Single Family,property_images/single_family_images/8874_Main_St.jpg
-6825 Tully Rd,San Jose,CA,95150,1308000,4,4,4487,Single Family,property_images/single_family_images/7345_Main_St.jpg
-4275 Jackson Ave,San Jose,CA,95125,2948000,3,2,2352,Single Family,property_images/single_family_images/8188_Main_St.jpg
-6375 South Bascom Ave,San Jose,CA,95128,1631000,1,1,4564,Apartment,property_images/apartment_images/4761_Main_St.jpg
-7843 Jackson Ave,San Jose,CA,95193,1103000,4,1,1622,Single Family,property_images/single_family_images/175_Main_St.jpg
-8058 McKee Rd,San Jose,CA,95114,1373000,3,4,1566,Single Family,property_images/single_family_images/6289_Main_St.jpg
-2128 Fairway Drive,San Jose,CA,95193,1408000,1,3,2467,Single Family,property_images/single_family_images/6358_Main_St.jpg
-8326 Santa Teresa Blvd,San Jose,CA,95132,2377000,6,3,966,Single Family,property_images/single_family_images/8639_Main_St.jpg
-9370 Quimby Rd,San Jose,CA,95169,1283000,4,3,1729,Apartment,property_images/apartment_images/4917_Main_St.jpg
-6205 Piedmont Rd,San Jose,CA,95142,2324000,4,2,998,Single Family,property_images/single_family_images/5756_Main_St.jpg
-1392 Silver Creek Valley Rd,San Jose,CA,95123,658000,4,1,1950,Apartment,property_images/apartment_images/8468_Main_St.jpg
-5206 McKee Rd,San Jose,CA,95115,1340000,1,1,3712,Apartment,property_images/apartment_images/961_Main_St.jpg
-3202 Mabury Rd,San Jose,CA,95114,2527000,1,4,3062,Apartment,property_images/apartment_images/9910_Main_St.jpg
-7526 Muirwood Dr,San Jose,CA,95132,1585000,2,3,4018,Apartment,property_images/apartment_images/8113_Main_St.jpg
-3114 Almaden Rd,San Jose,CA,95161,810000,2,3,3153,Apartment,property_images/apartment_images/7343_Main_St.jpg
-2420 Piedmont Rd,San Jose,CA,95147,2733000,6,2,3357,Apartment,property_images/apartment_images/8518_Main_St.jpg
-4282 Almaden Rd,San Jose,CA,95140,1086000,3,4,879,Single Family,property_images/single_family_images/3434_Main_St.jpg
-4679 Muirwood Dr,San Jose,CA,95119,1004000,6,2,4212,Apartment,property_images/apartment_images/2930_Main_St.jpg
-9723 El Camino Real,San Jose,CA,95126,1614000,2,4,2805,Single Family,property_images/single_family_images/373_Main_St.jpg
-6516 Piedmont Rd,San Jose,CA,95133,1404000,4,1,1556,Single Family,property_images/single_family_images/7913_Main_St.jpg
-1938 Fairway Drive,San Jose,CA,95164,588000,4,2,2025,Single Family,property_images/single_family_images/9199_Main_St.jpg
-9270 Jackson Ave,San Jose,CA,95140,2884000,4,3,3433,Single Family,property_images/single_family_images/3081_Main_St.jpg
-2452 Lick Mill Blvd,San Jose,CA,95173,2822000,1,2,2591,Apartment,property_images/apartment_images/7770_Main_St.jpg
-5399 Monterey Hwy,San Jose,CA,95168,1640000,1,3,3493,Apartment,property_images/apartment_images/214_Main_St.jpg
-8335 Senter Rd,San Jose,CA,95136,621000,6,4,889,Single Family,property_images/single_family_images/7411_Main_St.jpg
-3613 Mabury Rd,San Jose,CA,95153,2771000,1,1,1078,Apartment,property_images/apartment_images/9107_Main_St.jpg
-6785 South Bascom Ave,San Jose,CA,95113,2009000,1,3,3428,Single Family,property_images/single_family_images/9659_Main_St.jpg
-1504 McKee Rd,San Jose,CA,95138,2813000,6,3,2815,Single Family,property_images/single_family_images/5301_Main_St.jpg
-2197 King Rd,San Jose,CA,95132,800000,3,3,3898,Single Family,property_images/single_family_images/3570_Main_St.jpg
-1107 Pomeroy Ave,San Jose,CA,95137,1896000,4,2,947,Single Family,property_images/single_family_images/1945_Main_St.jpg
-5644 Lick Mill Blvd,San Jose,CA,95174,518000,4,3,4552,Single Family,property_images/single_family_images/5479_Main_St.jpg
-9868 Piedmont Rd,San Jose,CA,95140,2779000,3,4,3165,Single Family,property_images/single_family_images/3251_Main_St.jpg
-1479 Almaden Rd,San Jose,CA,95199,1261000,4,1,1416,Apartment,property_images/apartment_images/4408_Main_St.jpg
-2469 El Camino Real,San Jose,CA,95169,1925000,1,1,2912,Apartment,property_images/apartment_images/705_Main_St.jpg
-3771 Fairway Drive,San Jose,CA,95168,1352000,6,2,1172,Apartment,property_images/apartment_images/3841_Main_St.jpg
-6159 Senter Rd,San Jose,CA,95182,1360000,4,4,4382,Single Family,property_images/single_family_images/1199_Main_St.jpg
-6860 Silver Creek Valley Rd,San Jose,CA,95165,2229000,5,2,4519,Apartment,property_images/apartment_images/9741_Main_St.jpg
-8441 Silver Creek Valley Rd,San Jose,CA,95152,2911000,5,4,3065,Single Family,property_images/single_family_images/2723_Main_St.jpg
-8776 El Camino Real,San Jose,CA,95185,1642000,3,2,2962,Single Family,property_images/single_family_images/7521_Main_St.jpg
-8823 South Bascom Ave,San Jose,CA,95174,1334000,3,2,4257,Single Family,property_images/single_family_images/9133_Main_St.jpg
-4179 King Rd,San Jose,CA,95163,2694000,3,4,2219,Single Family,property_images/single_family_images/2123_Main_St.jpg
-7439 South Bascom Ave,San Jose,CA,95188,611000,6,4,3104,Apartment,property_images/apartment_images/6062_Main_St.jpg
-8636 Pomeroy Ave,San Jose,CA,95162,967000,2,2,2209,Apartment,property_images/apartment_images/4665_Main_St.jpg
-7583 Lick Mill Blvd,San Jose,CA,95118,1009000,5,3,1899,Apartment,property_images/apartment_images/5681_Main_St.jpg
-5611 McKee Rd,San Jose,CA,95194,513000,2,3,3810,Apartment,property_images/apartment_images/787_Main_St.jpg
-7603 Muirwood Dr,San Jose,CA,95167,1537000,5,2,2448,Apartment,property_images/apartment_images/4104_Main_St.jpg
-7473 Almaden Rd,San Jose,CA,95199,524000,6,4,4028,Apartment,property_images/apartment_images/3180_Main_St.jpg
-8264 Piedmont Rd,San Jose,CA,95157,1017000,6,1,3988,Single Family,property_images/single_family_images/821_Main_St.jpg
-2759 McKee Rd,San Jose,CA,95158,1854000,3,2,4822,Single Family,property_images/single_family_images/4169_Main_St.jpg
-4692 Santa Teresa Blvd,San Jose,CA,95159,636000,6,2,5000,Single Family,property_images/single_family_images/6741_Main_St.jpg
-1303 King Rd,San Jose,CA,95125,673000,4,1,3875,Single Family,property_images/single_family_images/5378_Main_St.jpg
-7087 Monterey Hwy,San Jose,CA,95159,2917000,1,1,1839,Single Family,property_images/single_family_images/6087_Main_St.jpg
-9280 Mabury Rd,San Jose,CA,95144,1896000,3,1,2584,Single Family,property_images/single_family_images/6864_Main_St.jpg
-1835 South Bascom Ave,San Jose,CA,95130,2122000,6,3,2157,Single Family,property_images/single_family_images/4345_Main_St.jpg
-9244 Muirwood Dr,San Jose,CA,95114,947000,3,4,2509,Apartment,property_images/apartment_images/594_Main_St.jpg
-8478 Mabury Rd,San Jose,CA,95110,2725000,4,1,3046,Single Family,property_images/single_family_images/5762_Main_St.jpg
-8123 Mabury Rd,San Jose,CA,95135,2864000,2,2,2976,Apartment,property_images/apartment_images/9025_Main_St.jpg
-9596 McKee Rd,San Jose,CA,95169,1333000,3,1,4985,Apartment,property_images/apartment_images/2035_Main_St.jpg
-9048 Berryessa Rd,San Jose,CA,95150,597000,2,3,1384,Apartment,property_images/apartment_images/4887_Main_St.jpg
-8733 El Camino Real,San Jose,CA,95188,1656000,4,2,3550,Single Family,property_images/single_family_images/6581_Main_St.jpg
-1244 South Bascom Ave,San Jose,CA,95176,617000,3,1,1471,Apartment,property_images/apartment_images/717_Main_St.jpg
-4526 Tully Rd,San Jose,CA,95194,2284000,4,1,829,Single Family,property_images/single_family_images/3060_Main_St.jpg
-9252 Pomeroy Ave,San Jose,CA,95150,676000,2,2,1942,Single Family,property_images/single_family_images/5553_Main_St.jpg
-1349 Silver Creek Valley Rd,San Jose,CA,95127,1195000,2,1,1300,Apartment,property_images/apartment_images/2772_Main_St.jpg
-4468 Senter Rd,San Jose,CA,95119,2891000,2,2,4095,Single Family,property_images/single_family_images/5459_Main_St.jpg
-5016 King Rd,San Jose,CA,95118,1648000,1,1,1458,Apartment,property_images/apartment_images/6747_Main_St.jpg
-5230 Almaden Rd,San Jose,CA,95112,894000,2,4,3602,Single Family,property_images/single_family_images/8786_Main_St.jpg
-4863 Blossom Hill Road,San Jose,CA,95143,1465000,1,1,1150,Single Family,property_images/single_family_images/9408_Main_St.jpg
-6478 Tully Rd,San Jose,CA,95138,2061000,5,1,3121,Apartment,property_images/apartment_images/2963_Main_St.jpg
-5974 Berryessa Rd,San Jose,CA,95142,848000,6,2,1512,Single Family,property_images/single_family_images/5124_Main_St.jpg
-5007 Pomeroy Ave,San Jose,CA,95170,2179000,6,4,3765,Single Family,property_images/single_family_images/3628_Main_St.jpg
-6300 Brophy Ct,San Jose,CA,95124,2980000,3,2,3104,Apartment,property_images/apartment_images/878_Main_St.jpg
-2961 McLaughlin Ave,San Jose,CA,95179,2492000,1,1,2954,Apartment,property_images/apartment_images/5380_Main_St.jpg
-6293 El Camino Real,San Jose,CA,95155,2756000,1,4,3649,Single Family,property_images/single_family_images/6978_Main_St.jpg
-2406 McKee Rd,San Jose,CA,95168,799000,5,3,4642,Single Family,property_images/single_family_images/3905_Main_St.jpg
-2103 Lelong St,San Jose,CA,95161,508000,4,1,3693,Single Family,property_images/single_family_images/8039_Main_St.jpg
-8366 South Bascom Ave,San Jose,CA,95139,2714000,1,1,4941,Single Family,property_images/single_family_images/3596_Main_St.jpg
-1574 Almaden Rd,San Jose,CA,95115,2154000,1,1,3474,Apartment,property_images/apartment_images/9999_Main_St.jpg
-8373 Jackson Ave,San Jose,CA,95181,1722000,1,4,3802,Single Family,property_images/single_family_images/4931_Main_St.jpg
-4804 Brophy Ct,San Jose,CA,95129,586000,4,1,4117,Single Family,property_images/single_family_images/4278_Main_St.jpg
-6786 Brophy Ct,San Jose,CA,95190,1153000,4,3,2142,Single Family,property_images/single_family_images/1571_Main_St.jpg
-9943 Lelong St,San Jose,CA,95172,1817000,1,3,1112,Single Family,property_images/single_family_images/9742_Main_St.jpg
-9900 King Rd,San Jose,CA,95153,2832000,2,1,4074,Apartment,property_images/apartment_images/3025_Main_St.jpg
-1871 Senter Rd,San Jose,CA,95128,1333000,3,3,2370,Apartment,property_images/apartment_images/7474_Main_St.jpg
-1700 Berryessa Rd,San Jose,CA,95198,1294000,1,3,915,Apartment,property_images/apartment_images/9269_Main_St.jpg
-7220 Santa Teresa Blvd,San Jose,CA,95136,2050000,4,4,1501,Apartment,property_images/apartment_images/6060_Main_St.jpg
-7054 Tully Rd,San Jose,CA,95156,1521000,5,4,2076,Single Family,property_images/single_family_images/5305_Main_St.jpg
-2619 Pomeroy Ave,San Jose,CA,95182,2636000,6,3,3652,Apartment,property_images/apartment_images/6445_Main_St.jpg
-8073 Silver Creek Valley Rd,San Jose,CA,95127,1542000,5,3,1927,Single Family,property_images/single_family_images/7041_Main_St.jpg
-4198 Monterey Hwy,San Jose,CA,95142,2773000,4,3,4074,Single Family,property_images/single_family_images/1635_Main_St.jpg
-4023 Tully Rd,San Jose,CA,95111,699000,4,1,1490,Apartment,property_images/apartment_images/6551_Main_St.jpg
-8512 Brophy Ct,San Jose,CA,95171,1982000,4,2,4462,Single Family,property_images/single_family_images/3576_Main_St.jpg
-6447 McKee Rd,San Jose,CA,95187,845000,2,1,812,Single Family,property_images/single_family_images/277_Main_St.jpg
-2052 Pomeroy Ave,San Jose,CA,95110,1558000,4,2,4097,Apartment,property_images/apartment_images/8393_Main_St.jpg
-1491 South Bascom Ave,San Jose,CA,95115,2685000,4,2,4716,Apartment,property_images/apartment_images/659_Main_St.jpg
-3282 Muirwood Dr,San Jose,CA,95144,1773000,3,3,2604,Apartment,property_images/apartment_images/4660_Main_St.jpg
-3815 Tully Rd,San Jose,CA,95179,1855000,6,3,2359,Single Family,property_images/single_family_images/2179_Main_St.jpg
-8992 Pomeroy Ave,San Jose,CA,95116,599000,5,1,1618,Apartment,property_images/apartment_images/8439_Main_St.jpg
-7992 Pomeroy Ave,San Jose,CA,95188,1647000,5,3,4827,Apartment,property_images/apartment_images/7853_Main_St.jpg
-7300 Pomeroy Ave,San Jose,CA,95110,1418000,3,4,3021,Apartment,property_images/apartment_images/2506_Main_St.jpg
-5636 Muirwood Dr,San Jose,CA,95135,722000,5,1,884,Single Family,property_images/single_family_images/8478_Main_St.jpg
-5920 Lelong St,San Jose,CA,95156,2971000,5,4,2754,Single Family,property_images/single_family_images/7313_Main_St.jpg
-4213 Blossom Hill Road,San Jose,CA,95125,2558000,6,3,3594,Single Family,property_images/single_family_images/8354_Main_St.jpg
-8557 Quimby Rd,San Jose,CA,95166,2923000,5,3,1321,Single Family,property_images/single_family_images/7597_Main_St.jpg
-6224 McKee Rd,San Jose,CA,95130,2746000,5,4,2364,Apartment,property_images/apartment_images/2510_Main_St.jpg
-6958 Fairway Drive,San Jose,CA,95129,2040000,4,4,1224,Apartment,property_images/apartment_images/3597_Main_St.jpg
-9415 Jackson Ave,San Jose,CA,95186,874000,5,1,3938,Apartment,property_images/apartment_images/9296_Main_St.jpg
-2140 Lick Mill Blvd,San Jose,CA,95126,2681000,6,1,2718,Apartment,property_images/apartment_images/9842_Main_St.jpg
-8175 Lick Mill Blvd,San Jose,CA,95136,1159000,3,3,3199,Single Family,property_images/single_family_images/7526_Main_St.jpg
-1079 McLaughlin Ave,San Jose,CA,95133,1322000,3,4,4661,Single Family,property_images/single_family_images/3646_Main_St.jpg
-9560 South Bascom Ave,San Jose,CA,95191,2426000,4,2,2737,Apartment,property_images/apartment_images/5351_Main_St.jpg
-8512 Blossom Hill Road,San Jose,CA,95132,1968000,3,4,2416,Single Family,property_images/single_family_images/6726_Main_St.jpg
-1465 Tully Rd,San Jose,CA,95115,739000,2,3,3239,Apartment,property_images/apartment_images/2792_Main_St.jpg
-3743 Lelong St,San Jose,CA,95157,634000,2,2,2790,Apartment,property_images/apartment_images/9439_Main_St.jpg
-7844 Santa Teresa Blvd,San Jose,CA,95112,1192000,3,4,3708,Apartment,property_images/apartment_images/4296_Main_St.jpg
-3631 South Bascom Ave,San Jose,CA,95154,614000,3,3,3461,Single Family,property_images/single_family_images/5072_Main_St.jpg
-6286 Monterey Hwy,San Jose,CA,95178,2827000,1,4,3526,Single Family,property_images/single_family_images/8402_Main_St.jpg
-8919 Senter Rd,San Jose,CA,95131,2962000,6,4,1637,Apartment,property_images/apartment_images/3368_Main_St.jpg
-2239 Lick Mill Blvd,San Jose,CA,95112,1385000,6,2,2797,Apartment,property_images/apartment_images/5452_Main_St.jpg
-3354 Blossom Hill Road,San Jose,CA,95143,2295000,2,4,1833,Single Family,property_images/single_family_images/6398_Main_St.jpg
-1803 Quimby Rd,San Jose,CA,95165,587000,3,1,3982,Apartment,property_images/apartment_images/4458_Main_St.jpg
-6416 Silver Creek Valley Rd,San Jose,CA,95187,2854000,3,4,3237,Single Family,property_images/single_family_images/6787_Main_St.jpg
-5272 Piedmont Rd,San Jose,CA,95174,1762000,3,3,4381,Single Family,property_images/single_family_images/5509_Main_St.jpg
-6044 Piedmont Rd,San Jose,CA,95191,2529000,2,2,1767,Apartment,property_images/apartment_images/4419_Main_St.jpg
-4302 Brophy Ct,San Jose,CA,95115,878000,4,2,3444,Apartment,property_images/apartment_images/6271_Main_St.jpg
-1699 Brophy Ct,San Jose,CA,95188,2779000,6,3,3664,Apartment,property_images/apartment_images/3746_Main_St.jpg
-8600 Piedmont Rd,San Jose,CA,95118,2511000,3,2,4152,Apartment,property_images/apartment_images/4916_Main_St.jpg
-5863 Lick Mill Blvd,San Jose,CA,95153,2691000,5,3,2007,Apartment,property_images/apartment_images/8575_Main_St.jpg
-2937 Lick Mill Blvd,San Jose,CA,95162,1775000,1,3,1349,Single Family,property_images/single_family_images/5861_Main_St.jpg
-9376 Muirwood Dr,San Jose,CA,95198,993000,5,2,2550,Single Family,property_images/single_family_images/3366_Main_St.jpg
-1916 Senter Rd,San Jose,CA,95183,2456000,3,4,2499,Single Family,property_images/single_family_images/4900_Main_St.jpg
-8066 King Rd,San Jose,CA,95151,2776000,2,2,2957,Apartment,property_images/apartment_images/273_Main_St.jpg
-5289 Lelong St,San Jose,CA,95176,2579000,5,4,4261,Apartment,property_images/apartment_images/118_Main_St.jpg
-2382 Muirwood Dr,San Jose,CA,95111,2934000,6,2,4432,Single Family,property_images/single_family_images/595_Main_St.jpg
-3559 Almaden Rd,San Jose,CA,95187,2550000,3,2,4432,Single Family,property_images/single_family_images/3645_Main_St.jpg
-5085 Fairway Drive,San Jose,CA,95167,2502000,3,4,1308,Apartment,property_images/apartment_images/2893_Main_St.jpg
-8214 Berryessa Rd,San Jose,CA,95153,2509000,5,3,3489,Single Family,property_images/single_family_images/3192_Main_St.jpg
-7701 Senter Rd,San Jose,CA,95199,1407000,5,3,2475,Single Family,property_images/single_family_images/1307_Main_St.jpg
-4679 McLaughlin Ave,San Jose,CA,95186,778000,1,3,4335,Apartment,property_images/apartment_images/7576_Main_St.jpg
-4301 King Rd,San Jose,CA,95165,910000,3,4,1205,Apartment,property_images/apartment_images/142_Main_St.jpg
-4508 McLaughlin Ave,San Jose,CA,95122,519000,6,3,2281,Single Family,property_images/single_family_images/2478_Main_St.jpg
-6752 Quimby Rd,San Jose,CA,95182,895000,3,4,3960,Single Family,property_images/single_family_images/9303_Main_St.jpg
-4244 Santa Teresa Blvd,San Jose,CA,95120,1800000,2,1,3243,Apartment,property_images/apartment_images/1779_Main_St.jpg
-1526 Tully Rd,San Jose,CA,95182,2756000,6,3,3802,Apartment,property_images/apartment_images/6374_Main_St.jpg
-2633 Jackson Ave,San Jose,CA,95142,1819000,3,2,2713,Apartment,property_images/apartment_images/6617_Main_St.jpg
-9113 Muirwood Dr,San Jose,CA,95195,2755000,6,4,1060,Apartment,property_images/apartment_images/5522_Main_St.jpg
-2018 Piedmont Rd,San Jose,CA,95162,2963000,2,4,822,Apartment,property_images/apartment_images/2574_Main_St.jpg
-3345 Mabury Rd,San Jose,CA,95178,2788000,1,3,2066,Apartment,property_images/apartment_images/8916_Main_St.jpg
-6369 Senter Rd,San Jose,CA,95126,2750000,1,3,3213,Apartment,property_images/apartment_images/5039_Main_St.jpg
-6790 Silver Creek Valley Rd,San Jose,CA,95166,2766000,6,1,4073,Apartment,property_images/apartment_images/5189_Main_St.jpg
-2453 Berryessa Rd,San Jose,CA,95114,1399000,1,4,879,Apartment,property_images/apartment_images/7450_Main_St.jpg
-3917 McLaughlin Ave,San Jose,CA,95124,2789000,1,1,1846,Apartment,property_images/apartment_images/8289_Main_St.jpg
-6618 Monterey Hwy,San Jose,CA,95174,602000,2,2,833,Single Family,property_images/single_family_images/7040_Main_St.jpg
-6739 Jackson Ave,San Jose,CA,95160,2576000,2,3,3233,Apartment,property_images/apartment_images/4633_Main_St.jpg
-7628 Muirwood Dr,San Jose,CA,95198,2254000,1,1,2035,Single Family,property_images/single_family_images/770_Main_St.jpg
-9416 El Camino Real,San Jose,CA,95182,1582000,5,4,2958,Single Family,property_images/single_family_images/246_Main_St.jpg
-4703 Fairway Drive,San Jose,CA,95175,1602000,2,3,2487,Apartment,property_images/apartment_images/4933_Main_St.jpg
-8552 Fairway Drive,San Jose,CA,95169,1093000,3,2,3261,Apartment,property_images/apartment_images/3813_Main_St.jpg
-7938 McLaughlin Ave,San Jose,CA,95176,1664000,5,1,2383,Apartment,property_images/apartment_images/8713_Main_St.jpg
-4786 Mabury Rd,San Jose,CA,95142,992000,6,3,3820,Single Family,property_images/single_family_images/3843_Main_St.jpg
-1601 Pomeroy Ave,San Jose,CA,95123,1233000,4,1,1733,Apartment,property_images/apartment_images/6481_Main_St.jpg
-8481 Lelong St,San Jose,CA,95148,1229000,5,3,3958,Apartment,property_images/apartment_images/9511_Main_St.jpg
-7678 Lick Mill Blvd,San Jose,CA,95186,608000,1,2,4458,Apartment,property_images/apartment_images/6405_Main_St.jpg
-2723 Mabury Rd,San Jose,CA,95184,595000,3,2,4645,Single Family,property_images/single_family_images/807_Main_St.jpg
-8329 Silver Creek Valley Rd,San Jose,CA,95153,1235000,1,2,2687,Single Family,property_images/single_family_images/3414_Main_St.jpg
-1916 Muirwood Dr,San Jose,CA,95156,1551000,6,2,1478,Single Family,property_images/single_family_images/7927_Main_St.jpg
-1809 Jackson Ave,San Jose,CA,95169,1465000,2,1,4239,Apartment,property_images/apartment_images/1234_Main_St.jpg
-7739 South Bascom Ave,San Jose,CA,95195,1956000,3,2,2230,Single Family,property_images/single_family_images/3230_Main_St.jpg
-4650 Pomeroy Ave,San Jose,CA,95121,1659000,4,1,1258,Single Family,property_images/single_family_images/1828_Main_St.jpg
-7881 South Bascom Ave,San Jose,CA,95186,853000,1,1,1836,Single Family,property_images/single_family_images/2718_Main_St.jpg
-8793 Jackson Ave,San Jose,CA,95126,2188000,4,4,1297,Single Family,property_images/single_family_images/1036_Main_St.jpg
-1761 McLaughlin Ave,San Jose,CA,95188,917000,5,3,1401,Apartment,property_images/apartment_images/3498_Main_St.jpg
-7009 Blossom Hill Road,San Jose,CA,95135,521000,2,2,3127,Apartment,property_images/apartment_images/3730_Main_St.jpg
-2818 Lelong St,San Jose,CA,95144,1868000,3,2,3860,Single Family,property_images/single_family_images/3645_Main_St.jpg
-7027 Almaden Rd,San Jose,CA,95195,754000,6,2,3747,Single Family,property_images/single_family_images/7810_Main_St.jpg
-5112 El Camino Real,San Jose,CA,95164,1716000,6,2,3743,Apartment,property_images/apartment_images/1407_Main_St.jpg
-4548 King Rd,San Jose,CA,95154,1195000,5,2,2677,Single Family,property_images/single_family_images/3084_Main_St.jpg
-9435 Santa Teresa Blvd,San Jose,CA,95159,2548000,3,4,1970,Single Family,property_images/single_family_images/3544_Main_St.jpg
-7133 Silver Creek Valley Rd,San Jose,CA,95119,2878000,6,3,1204,Apartment,property_images/apartment_images/9176_Main_St.jpg
-3250 Brophy Ct,San Jose,CA,95196,554000,6,4,4474,Apartment,property_images/apartment_images/3995_Main_St.jpg
-6157 El Camino Real,San Jose,CA,95168,864000,2,4,2221,Single Family,property_images/single_family_images/3544_Main_St.jpg
-8947 Monterey Hwy,San Jose,CA,95197,2311000,3,2,1234,Apartment,property_images/apartment_images/6002_Main_St.jpg
-4749 Monterey Hwy,San Jose,CA,95185,1183000,1,2,1947,Apartment,property_images/apartment_images/2345_Main_St.jpg
-7335 McKee Rd,San Jose,CA,95181,1337000,6,2,3047,Single Family,property_images/single_family_images/6804_Main_St.jpg
-3692 Blossom Hill Road,San Jose,CA,95144,849000,2,4,2167,Single Family,property_images/single_family_images/5623_Main_St.jpg
-5653 Piedmont Rd,San Jose,CA,95155,1752000,5,2,826,Single Family,property_images/single_family_images/6833_Main_St.jpg
-9762 Fairway Drive,San Jose,CA,95141,1237000,2,1,1892,Apartment,property_images/apartment_images/4428_Main_St.jpg
-5991 Quimby Rd,San Jose,CA,95188,1422000,4,1,3934,Single Family,property_images/single_family_images/1643_Main_St.jpg
-8551 Lelong St,San Jose,CA,95172,1010000,6,4,1900,Single Family,property_images/single_family_images/1912_Main_St.jpg
-5463 South Bascom Ave,San Jose,CA,95188,1763000,4,1,3436,Apartment,property_images/apartment_images/315_Main_St.jpg
-7832 Fairway Drive,San Jose,CA,95176,1806000,4,3,3011,Apartment,property_images/apartment_images/8515_Main_St.jpg
-7314 Tully Rd,San Jose,CA,95193,2212000,5,2,4527,Apartment,property_images/apartment_images/3725_Main_St.jpg
-9945 Monterey Hwy,San Jose,CA,95124,2192000,4,3,2242,Apartment,property_images/apartment_images/1460_Main_St.jpg
-7200 Silver Creek Valley Rd,San Jose,CA,95133,2631000,3,1,4873,Single Family,property_images/single_family_images/6162_Main_St.jpg
-7580 Monterey Hwy,San Jose,CA,95164,994000,5,4,2742,Single Family,property_images/single_family_images/4620_Main_St.jpg
-7105 Blossom Hill Road,San Jose,CA,95198,2109000,1,3,3739,Single Family,property_images/single_family_images/3425_Main_St.jpg
-4474 Senter Rd,San Jose,CA,95176,2580000,3,4,3790,Apartment,property_images/apartment_images/6320_Main_St.jpg
-3346 Senter Rd,San Jose,CA,95150,2255000,6,1,1941,Single Family,property_images/single_family_images/8288_Main_St.jpg
-8102 McKee Rd,San Jose,CA,95130,2189000,5,1,1843,Apartment,property_images/apartment_images/9915_Main_St.jpg
-6966 McLaughlin Ave,San Jose,CA,95149,2971000,6,4,1267,Apartment,property_images/apartment_images/5922_Main_St.jpg
-9330 Berryessa Rd,San Jose,CA,95136,2390000,5,4,2304,Apartment,property_images/apartment_images/6906_Main_St.jpg
-1822 Lick Mill Blvd,San Jose,CA,95119,803000,6,2,1577,Apartment,property_images/apartment_images/708_Main_St.jpg
-4427 Monterey Hwy,San Jose,CA,95146,1183000,1,4,3912,Single Family,property_images/single_family_images/8698_Main_St.jpg
-5787 Lick Mill Blvd,San Jose,CA,95195,2591000,3,1,3148,Single Family,property_images/single_family_images/5118_Main_St.jpg
-4006 Monterey Hwy,San Jose,CA,95178,900000,2,1,3556,Apartment,property_images/apartment_images/793_Main_St.jpg
-8942 McLaughlin Ave,San Jose,CA,95156,680000,6,2,871,Single Family,property_images/single_family_images/3879_Main_St.jpg
-5435 Senter Rd,San Jose,CA,95122,2016000,4,4,4372,Apartment,property_images/apartment_images/9770_Main_St.jpg
-8000 Blossom Hill Road,San Jose,CA,95191,2862000,6,1,4815,Apartment,property_images/apartment_images/482_Main_St.jpg
-4714 El Camino Real,San Jose,CA,95166,717000,3,3,3770,Apartment,property_images/apartment_images/1199_Main_St.jpg
-4767 Silver Creek Valley Rd,San Jose,CA,95153,2400000,1,3,2593,Apartment,property_images/apartment_images/9911_Main_St.jpg
-8043 Muirwood Dr,San Jose,CA,95169,2075000,6,1,2088,Single Family,property_images/single_family_images/1019_Main_St.jpg
-5070 Berryessa Rd,San Jose,CA,95194,2930000,1,2,1185,Single Family,property_images/single_family_images/2471_Main_St.jpg
-4047 Lelong St,San Jose,CA,95166,1023000,1,4,4149,Apartment,property_images/apartment_images/407_Main_St.jpg
-3967 Blossom Hill Road,San Jose,CA,95174,1344000,1,4,2863,Apartment,property_images/apartment_images/3570_Main_St.jpg
-7294 Silver Creek Valley Rd,San Jose,CA,95128,1063000,2,4,3021,Single Family,property_images/single_family_images/4294_Main_St.jpg
-6622 McKee Rd,San Jose,CA,95185,2019000,6,3,1777,Single Family,property_images/single_family_images/2074_Main_St.jpg
-7418 Lick Mill Blvd,San Jose,CA,95155,1067000,6,1,3920,Single Family,property_images/single_family_images/1515_Main_St.jpg
-1809 Jackson Ave,San Jose,CA,95136,724000,4,4,3595,Apartment,property_images/apartment_images/4934_Main_St.jpg
-4822 Santa Teresa Blvd,San Jose,CA,95151,1632000,2,3,1434,Single Family,property_images/single_family_images/9893_Main_St.jpg
-8376 Brophy Ct,San Jose,CA,95147,1736000,6,2,3631,Single Family,property_images/single_family_images/2949_Main_St.jpg
-4394 Jackson Ave,San Jose,CA,95125,1271000,1,1,1978,Single Family,property_images/single_family_images/8373_Main_St.jpg
-5050 McLaughlin Ave,San Jose,CA,95126,1746000,4,3,4711,Apartment,property_images/apartment_images/8411_Main_St.jpg
-7344 McLaughlin Ave,San Jose,CA,95160,949000,2,3,2801,Single Family,property_images/single_family_images/5725_Main_St.jpg
-8833 Senter Rd,San Jose,CA,95135,1771000,1,4,3301,Apartment,property_images/apartment_images/7958_Main_St.jpg
-5049 Tully Rd,San Jose,CA,95172,779000,6,4,3121,Single Family,property_images/single_family_images/6324_Main_St.jpg
-7767 Blossom Hill Road,San Jose,CA,95122,2059000,3,2,4441,Single Family,property_images/single_family_images/1699_Main_St.jpg
-4650 Tully Rd,San Jose,CA,95125,1034000,1,4,4063,Single Family,property_images/single_family_images/9137_Main_St.jpg
-8940 Fairway Drive,San Jose,CA,95147,1174000,4,3,4130,Apartment,property_images/apartment_images/811_Main_St.jpg
-1329 Quimby Rd,San Jose,CA,95190,1882000,6,4,3694,Apartment,property_images/apartment_images/5607_Main_St.jpg
-3435 Senter Rd,San Jose,CA,95194,804000,3,4,2023,Apartment,property_images/apartment_images/4593_Main_St.jpg
-6056 Santa Teresa Blvd,San Jose,CA,95172,2772000,3,1,2784,Single Family,property_images/single_family_images/7119_Main_St.jpg
-3255 Piedmont Rd,San Jose,CA,95197,664000,5,1,2349,Single Family,property_images/single_family_images/1453_Main_St.jpg
-2349 Piedmont Rd,San Jose,CA,95127,2742000,3,3,3368,Single Family,property_images/single_family_images/8925_Main_St.jpg
-9062 Quimby Rd,San Jose,CA,95148,2380000,3,2,1347,Apartment,property_images/apartment_images/1368_Main_St.jpg
-4249 Piedmont Rd,San Jose,CA,95191,2377000,5,2,3813,Apartment,property_images/apartment_images/2301_Main_St.jpg
-1156 Pomeroy Ave,San Jose,CA,95128,1974000,6,4,3705,Single Family,property_images/single_family_images/6119_Main_St.jpg
-1387 Mabury Rd,San Jose,CA,95196,1865000,6,2,4208,Apartment,property_images/apartment_images/8725_Main_St.jpg
-4101 Lelong St,San Jose,CA,95164,564000,4,3,2355,Apartment,property_images/apartment_images/609_Main_St.jpg
-1520 Lelong St,San Jose,CA,95174,1006000,2,2,3704,Apartment,property_images/apartment_images/5151_Main_St.jpg
-7152 McLaughlin Ave,San Jose,CA,95154,779000,3,2,926,Apartment,property_images/apartment_images/9448_Main_St.jpg
-5390 Senter Rd,San Jose,CA,95114,684000,4,1,4998,Apartment,property_images/apartment_images/1382_Main_St.jpg
-7686 El Camino Real,San Jose,CA,95128,1923000,1,2,820,Single Family,property_images/single_family_images/6898_Main_St.jpg
-1225 Monterey Hwy,San Jose,CA,95136,1405000,1,2,4775,Single Family,property_images/single_family_images/4089_Main_St.jpg
-4060 Lelong St,San Jose,CA,95124,2949000,1,1,1287,Apartment,property_images/apartment_images/7125_Main_St.jpg
-4079 McLaughlin Ave,San Jose,CA,95184,1059000,5,2,1665,Apartment,property_images/apartment_images/1263_Main_St.jpg
-2238 McKee Rd,San Jose,CA,95163,2610000,5,4,3792,Apartment,property_images/apartment_images/8254_Main_St.jpg
-2799 Senter Rd,San Jose,CA,95149,1287000,3,2,881,Single Family,property_images/single_family_images/3411_Main_St.jpg
-3226 Senter Rd,San Jose,CA,95156,1746000,1,2,3310,Single Family,property_images/single_family_images/4944_Main_St.jpg
-7111 Silver Creek Valley Rd,San Jose,CA,95112,1766000,4,2,4359,Apartment,property_images/apartment_images/9038_Main_St.jpg
-7740 McLaughlin Ave,San Jose,CA,95196,2479000,2,2,4511,Apartment,property_images/apartment_images/1649_Main_St.jpg
-7636 Blossom Hill Road,San Jose,CA,95145,2528000,5,3,4950,Single Family,property_images/single_family_images/3311_Main_St.jpg
-9583 Senter Rd,San Jose,CA,95148,587000,1,1,1092,Apartment,property_images/apartment_images/1299_Main_St.jpg
-2232 Tully Rd,San Jose,CA,95190,2788000,1,4,4771,Single Family,property_images/single_family_images/2508_Main_St.jpg
-9246 Muirwood Dr,San Jose,CA,95152,1945000,5,4,2008,Apartment,property_images/apartment_images/7363_Main_St.jpg
-1874 Lick Mill Blvd,San Jose,CA,95162,566000,5,3,1782,Single Family,property_images/single_family_images/2168_Main_St.jpg
-7431 Muirwood Dr,San Jose,CA,95168,797000,5,2,2838,Apartment,property_images/apartment_images/4947_Main_St.jpg
-3942 Silver Creek Valley Rd,San Jose,CA,95121,2116000,4,2,1661,Single Family,property_images/single_family_images/3399_Main_St.jpg
-4975 Brophy Ct,San Jose,CA,95177,1657000,5,4,4867,Single Family,property_images/single_family_images/5309_Main_St.jpg
-6459 Lick Mill Blvd,San Jose,CA,95160,2418000,3,1,4623,Apartment,property_images/apartment_images/1296_Main_St.jpg
-1477 Mabury Rd,San Jose,CA,95126,2239000,5,2,2722,Apartment,property_images/apartment_images/7689_Main_St.jpg
-7214 South Bascom Ave,San Jose,CA,95116,2700000,6,1,1887,Apartment,property_images/apartment_images/5446_Main_St.jpg
-3761 Santa Teresa Blvd,San Jose,CA,95153,740000,6,2,1757,Apartment,property_images/apartment_images/447_Main_St.jpg
-9697 Lelong St,San Jose,CA,95173,2223000,6,1,1888,Single Family,property_images/single_family_images/1199_Main_St.jpg
-8616 Fairway Drive,San Jose,CA,95171,1565000,5,3,1813,Single Family,property_images/single_family_images/7708_Main_St.jpg
-9211 Berryessa Rd,San Jose,CA,95131,1321000,1,2,3452,Single Family,property_images/single_family_images/5097_Main_St.jpg
-2226 Tully Rd,San Jose,CA,95177,940000,3,3,4712,Apartment,property_images/apartment_images/6238_Main_St.jpg
-5356 Mabury Rd,San Jose,CA,95199,1461000,1,2,2907,Single Family,property_images/single_family_images/7417_Main_St.jpg
-6254 King Rd,San Jose,CA,95164,2932000,2,1,4471,Single Family,property_images/single_family_images/5497_Main_St.jpg
-5648 McLaughlin Ave,San Jose,CA,95133,521000,6,1,3019,Single Family,property_images/single_family_images/9664_Main_St.jpg
-7696 Brophy Ct,San Jose,CA,95119,883000,1,2,3366,Apartment,property_images/apartment_images/9226_Main_St.jpg
-8407 Blossom Hill Road,San Jose,CA,95113,2416000,5,2,4413,Apartment,property_images/apartment_images/3568_Main_St.jpg
-6742 Santa Teresa Blvd,San Jose,CA,95195,2323000,4,1,4686,Apartment,property_images/apartment_images/2575_Main_St.jpg
-2598 Pomeroy Ave,San Jose,CA,95190,933000,5,4,2589,Single Family,property_images/single_family_images/152_Main_St.jpg
-6288 Tully Rd,San Jose,CA,95199,2301000,1,3,3253,Apartment,property_images/apartment_images/1505_Main_St.jpg
-8876 Mabury Rd,San Jose,CA,95148,778000,5,4,932,Single Family,property_images/single_family_images/5021_Main_St.jpg
-1130 Lelong St,San Jose,CA,95112,612000,2,3,3350,Single Family,property_images/single_family_images/5404_Main_St.jpg
-6068 Almaden Rd,San Jose,CA,95163,2639000,5,3,1821,Single Family,property_images/single_family_images/6821_Main_St.jpg
-2168 Piedmont Rd,San Jose,CA,95199,2278000,3,1,2011,Apartment,property_images/apartment_images/2778_Main_St.jpg
-4201 McLaughlin Ave,San Jose,CA,95170,1246000,6,3,3384,Single Family,property_images/single_family_images/5285_Main_St.jpg
-6511 Muirwood Dr,San Jose,CA,95120,2231000,6,2,3504,Apartment,property_images/apartment_images/7337_Main_St.jpg
-2040 Almaden Rd,San Jose,CA,95180,2032000,1,4,2535,Apartment,property_images/apartment_images/8510_Main_St.jpg
-1018 Quimby Rd,San Jose,CA,95126,2466000,1,1,1999,Apartment,property_images/apartment_images/6710_Main_St.jpg
-2104 Lelong St,San Jose,CA,95145,1517000,4,3,4524,Single Family,property_images/single_family_images/3466_Main_St.jpg
-5612 Mabury Rd,San Jose,CA,95144,1586000,3,3,1678,Apartment,property_images/apartment_images/3013_Main_St.jpg
-2122 Senter Rd,San Jose,CA,95118,869000,3,1,1624,Single Family,property_images/single_family_images/8373_Main_St.jpg
-4871 Santa Teresa Blvd,San Jose,CA,95194,1510000,2,2,1848,Single Family,property_images/single_family_images/5344_Main_St.jpg
-3309 King Rd,San Jose,CA,95199,2284000,2,4,1385,Single Family,property_images/single_family_images/9196_Main_St.jpg
-3989 South Bascom Ave,San Jose,CA,95128,1722000,5,2,1535,Single Family,property_images/single_family_images/1425_Main_St.jpg
-4072 Tully Rd,San Jose,CA,95193,2568000,2,1,1275,Single Family,property_images/single_family_images/5684_Main_St.jpg
-4042 Quimby Rd,San Jose,CA,95166,695000,3,1,3388,Single Family,property_images/single_family_images/2603_Main_St.jpg
-5545 Pomeroy Ave,San Jose,CA,95189,958000,3,1,939,Apartment,property_images/apartment_images/8554_Main_St.jpg
-9597 Silver Creek Valley Rd,San Jose,CA,95131,2211000,1,1,2085,Apartment,property_images/apartment_images/5708_Main_St.jpg
-2487 Pomeroy Ave,San Jose,CA,95154,2394000,3,4,1727,Single Family,property_images/single_family_images/6108_Main_St.jpg
-7196 Muirwood Dr,San Jose,CA,95168,1061000,5,1,3960,Single Family,property_images/single_family_images/1250_Main_St.jpg
-8328 Pomeroy Ave,San Jose,CA,95161,2542000,5,2,4656,Apartment,property_images/apartment_images/5088_Main_St.jpg
-9423 King Rd,San Jose,CA,95110,2171000,4,4,1505,Single Family,property_images/single_family_images/9094_Main_St.jpg
-2604 Piedmont Rd,San Jose,CA,95166,1890000,2,1,1894,Single Family,property_images/single_family_images/3843_Main_St.jpg
-7009 Tully Rd,San Jose,CA,95170,2315000,5,3,1583,Single Family,property_images/single_family_images/3653_Main_St.jpg
-3782 McLaughlin Ave,San Jose,CA,95131,1144000,2,1,1236,Single Family,property_images/single_family_images/9268_Main_St.jpg
-6913 Jackson Ave,San Jose,CA,95125,1958000,6,4,1784,Single Family,property_images/single_family_images/3508_Main_St.jpg
-1756 Brophy Ct,San Jose,CA,95139,2597000,6,4,4502,Apartment,property_images/apartment_images/8231_Main_St.jpg
-1653 McKee Rd,San Jose,CA,95175,2642000,5,3,2308,Single Family,property_images/single_family_images/9186_Main_St.jpg
-5221 McLaughlin Ave,San Jose,CA,95172,2944000,4,2,1670,Single Family,property_images/single_family_images/316_Main_St.jpg
-2447 Jackson Ave,San Jose,CA,95148,2607000,5,2,3090,Apartment,property_images/apartment_images/6980_Main_St.jpg
-1629 McLaughlin Ave,San Jose,CA,95111,1924000,5,1,1515,Single Family,property_images/single_family_images/6864_Main_St.jpg
-9330 South Bascom Ave,San Jose,CA,95186,2314000,5,3,2218,Single Family,property_images/single_family_images/5800_Main_St.jpg
-4190 Jackson Ave,San Jose,CA,95110,2581000,4,3,2401,Apartment,property_images/apartment_images/9015_Main_St.jpg
-6538 McKee Rd,San Jose,CA,95146,2824000,1,2,1906,Single Family,property_images/single_family_images/5779_Main_St.jpg
-2674 King Rd,San Jose,CA,95125,1137000,2,3,1814,Single Family,property_images/single_family_images/5515_Main_St.jpg
-8156 Monterey Hwy,San Jose,CA,95152,1806000,3,2,4240,Single Family,property_images/single_family_images/701_Main_St.jpg
-1226 Jackson Ave,San Jose,CA,95122,1274000,2,4,1833,Single Family,property_images/single_family_images/4006_Main_St.jpg
-3211 Silver Creek Valley Rd,San Jose,CA,95140,770000,3,4,1946,Apartment,property_images/apartment_images/9285_Main_St.jpg
-3570 Lelong St,San Jose,CA,95172,1550000,5,4,1293,Apartment,property_images/apartment_images/5657_Main_St.jpg
-7296 Almaden Rd,San Jose,CA,95157,559000,2,1,1292,Apartment,property_images/apartment_images/5641_Main_St.jpg
-8934 Quimby Rd,San Jose,CA,95114,2775000,6,1,2355,Apartment,property_images/apartment_images/5581_Main_St.jpg
-5741 Fairway Drive,San Jose,CA,95153,2136000,1,2,1644,Single Family,property_images/single_family_images/5779_Main_St.jpg
-2628 Pomeroy Ave,San Jose,CA,95154,951000,6,2,3434,Single Family,property_images/single_family_images/7451_Main_St.jpg
-3335 Almaden Rd,San Jose,CA,95151,2516000,1,4,1133,Single Family,property_images/single_family_images/5535_Main_St.jpg
-2015 Muirwood Dr,San Jose,CA,95192,718000,1,2,4777,Single Family,property_images/single_family_images/5798_Main_St.jpg
-4291 El Camino Real,San Jose,CA,95186,2040000,1,3,3021,Single Family,property_images/single_family_images/3579_Main_St.jpg
-6111 El Camino Real,San Jose,CA,95161,1776000,3,1,4715,Apartment,property_images/apartment_images/3946_Main_St.jpg
-1177 Pomeroy Ave,San Jose,CA,95123,692000,2,1,4754,Single Family,property_images/single_family_images/4279_Main_St.jpg
-9645 South Bascom Ave,San Jose,CA,95172,1872000,6,2,2352,Single Family,property_images/single_family_images/4011_Main_St.jpg
-7665 Santa Teresa Blvd,San Jose,CA,95162,2087000,2,4,919,Apartment,property_images/apartment_images/4140_Main_St.jpg
-7369 McKee Rd,San Jose,CA,95155,2775000,2,1,1007,Single Family,property_images/single_family_images/5231_Main_St.jpg
-4693 El Camino Real,San Jose,CA,95174,782000,4,1,2213,Apartment,property_images/apartment_images/653_Main_St.jpg
-2068 Quimby Rd,San Jose,CA,95158,2752000,3,1,4201,Apartment,property_images/apartment_images/1703_Main_St.jpg
-9101 King Rd,San Jose,CA,95158,627000,2,4,996,Apartment,property_images/apartment_images/6689_Main_St.jpg
-5571 Tully Rd,San Jose,CA,95111,2474000,4,2,4745,Single Family,property_images/single_family_images/8275_Main_St.jpg
-3651 Tully Rd,San Jose,CA,95154,1589000,4,1,4705,Apartment,property_images/apartment_images/2230_Main_St.jpg
-7321 Berryessa Rd,San Jose,CA,95167,1020000,4,4,2658,Apartment,property_images/apartment_images/4944_Main_St.jpg
-4905 Fairway Drive,San Jose,CA,95129,2488000,3,4,2172,Apartment,property_images/apartment_images/3117_Main_St.jpg
-4371 Monterey Hwy,San Jose,CA,95173,1974000,5,2,4355,Single Family,property_images/single_family_images/2997_Main_St.jpg
-6714 Berryessa Rd,San Jose,CA,95146,2488000,5,4,1148,Single Family,property_images/single_family_images/8980_Main_St.jpg
-7200 Santa Teresa Blvd,San Jose,CA,95154,651000,3,4,1573,Single Family,property_images/single_family_images/6810_Main_St.jpg
-1613 Almaden Rd,San Jose,CA,95166,655000,6,1,3094,Apartment,property_images/apartment_images/9392_Main_St.jpg
-1737 McKee Rd,San Jose,CA,95127,1023000,3,2,4038,Single Family,property_images/single_family_images/9516_Main_St.jpg
-7719 King Rd,San Jose,CA,95140,1996000,6,4,4545,Single Family,property_images/single_family_images/6570_Main_St.jpg
-8356 Fairway Drive,San Jose,CA,95182,1108000,4,4,3280,Apartment,property_images/apartment_images/9522_Main_St.jpg
+Street Address,City,State,ZIP Code,Price,Bedrooms,Bathrooms,Square Footage,Property Type
+5427 Lick Mill Blvd,San Jose,CA,95132,2850000,5,4,2596,Single Family
+8774 Blossom Hill Road,San Jose,CA,95158,1483000,6,4,1796,Apartment
+9173 Senter Rd,San Jose,CA,95160,649000,4,4,3511,Apartment
+7669 Almaden Rd,San Jose,CA,95128,1177000,1,4,1427,Apartment
+1800 McKee Rd,San Jose,CA,95183,2136000,2,2,4544,Apartment
+7276 Santa Teresa Blvd,San Jose,CA,95172,1735000,5,3,4591,Single Family
+5937 Berryessa Rd,San Jose,CA,95128,2075000,6,2,3452,Apartment
+2917 Brophy Ct,San Jose,CA,95125,2670000,2,2,4339,Single Family
+2738 Fairway Drive,San Jose,CA,95171,1427000,3,4,3068,Single Family
+9977 Santa Teresa Blvd,San Jose,CA,95174,1143000,6,2,835,Apartment
+3805 Blossom Hill Road,San Jose,CA,95144,1661000,3,3,1749,Single Family
+2602 Santa Teresa Blvd,San Jose,CA,95172,1299000,4,1,1720,Single Family
+6333 King Rd,San Jose,CA,95142,1923000,2,2,3848,Apartment
+3485 El Camino Real,San Jose,CA,95170,1257000,2,4,878,Apartment
+7765 Mabury Rd,San Jose,CA,95115,2190000,2,1,4527,Apartment
+8987 South Bascom Ave,San Jose,CA,95136,574000,2,2,2211,Single Family
+3719 Lelong St,San Jose,CA,95123,1745000,3,3,4415,Apartment
+6813 Santa Teresa Blvd,San Jose,CA,95141,2507000,1,4,3976,Single Family
+2113 Lick Mill Blvd,San Jose,CA,95113,2276000,3,4,1193,Apartment
+4388 Santa Teresa Blvd,San Jose,CA,95171,2537000,6,2,4595,Single Family
+6309 Jackson Ave,San Jose,CA,95127,1218000,6,1,2677,Apartment
+3395 Almaden Rd,San Jose,CA,95180,1183000,1,4,4470,Apartment
+6302 Tully Rd,San Jose,CA,95190,823000,6,1,3206,Apartment
+5587 South Bascom Ave,San Jose,CA,95157,2795000,6,4,1507,Single Family
+8393 McKee Rd,San Jose,CA,95186,3000000,1,1,3619,Single Family
+3133 Brophy Ct,San Jose,CA,95193,697000,2,4,1382,Apartment
+7867 Jackson Ave,San Jose,CA,95138,1999000,4,1,2814,Single Family
+3135 Tully Rd,San Jose,CA,95198,590000,1,2,1615,Apartment
+1481 Brophy Ct,San Jose,CA,95185,558000,3,1,3212,Apartment
+4750 Berryessa Rd,San Jose,CA,95142,2276000,5,3,1921,Apartment
+2691 Mabury Rd,San Jose,CA,95132,2215000,1,1,2781,Single Family
+1633 South Bascom Ave,San Jose,CA,95122,2431000,4,3,3886,Apartment
+6799 Lelong St,San Jose,CA,95180,2035000,2,4,3387,Apartment
+7563 Blossom Hill Road,San Jose,CA,95116,1538000,1,2,1530,Single Family
+8239 Santa Teresa Blvd,San Jose,CA,95137,2851000,3,1,4599,Apartment
+3299 Quimby Rd,San Jose,CA,95152,1425000,3,1,4666,Apartment
+5604 Santa Teresa Blvd,San Jose,CA,95175,2083000,1,3,2426,Single Family
+9714 Pomeroy Ave,San Jose,CA,95144,2333000,4,3,2774,Single Family
+4724 Monterey Hwy,San Jose,CA,95153,1772000,6,4,4734,Apartment
+7777 Almaden Rd,San Jose,CA,95113,1967000,5,4,4042,Apartment
+9349 Pomeroy Ave,San Jose,CA,95146,2536000,2,3,2699,Single Family
+1155 Fairway Drive,San Jose,CA,95113,1652000,5,4,4394,Single Family
+2592 King Rd,San Jose,CA,95194,1870000,2,1,4392,Apartment
+5271 Lick Mill Blvd,San Jose,CA,95164,640000,6,3,2546,Apartment
+8102 Piedmont Rd,San Jose,CA,95184,1772000,1,2,4116,Single Family
+2566 Monterey Hwy,San Jose,CA,95180,605000,4,3,820,Single Family
+2881 Tully Rd,San Jose,CA,95197,1179000,2,4,2344,Single Family
+5163 El Camino Real,San Jose,CA,95171,2624000,1,2,4050,Apartment
+5245 Muirwood Dr,San Jose,CA,95137,1428000,3,2,3263,Apartment
+3297 Pomeroy Ave,San Jose,CA,95117,914000,3,4,1122,Single Family
+4522 South Bascom Ave,San Jose,CA,95141,959000,3,2,3790,Apartment
+4172 Lelong St,San Jose,CA,95116,2529000,3,4,1910,Single Family
+2211 Piedmont Rd,San Jose,CA,95173,2237000,1,4,1668,Single Family
+3909 McKee Rd,San Jose,CA,95112,2509000,1,3,3275,Apartment
+5857 McKee Rd,San Jose,CA,95170,2270000,2,2,1360,Apartment
+7628 Mabury Rd,San Jose,CA,95142,1634000,5,2,4205,Apartment
+7715 South Bascom Ave,San Jose,CA,95142,989000,1,4,4314,Single Family
+4200 King Rd,San Jose,CA,95120,2615000,6,3,1382,Single Family
+1544 McKee Rd,San Jose,CA,95125,2946000,5,3,3368,Single Family
+2964 Lick Mill Blvd,San Jose,CA,95119,2574000,5,2,2904,Single Family
+8828 Mabury Rd,San Jose,CA,95116,1990000,6,2,4047,Single Family
+8367 Piedmont Rd,San Jose,CA,95156,1725000,1,1,4939,Apartment
+4835 Senter Rd,San Jose,CA,95147,794000,2,4,3775,Single Family
+7921 Senter Rd,San Jose,CA,95146,2018000,1,4,837,Apartment
+3300 Piedmont Rd,San Jose,CA,95192,557000,5,3,4216,Apartment
+5776 Tully Rd,San Jose,CA,95172,1083000,5,4,2233,Apartment
+7696 Mabury Rd,San Jose,CA,95112,2902000,5,4,3914,Apartment
+2939 Lelong St,San Jose,CA,95140,1105000,4,2,3400,Single Family
+7039 McKee Rd,San Jose,CA,95198,1165000,1,2,2160,Single Family
+2181 Lelong St,San Jose,CA,95197,817000,5,3,2209,Single Family
+2556 Quimby Rd,San Jose,CA,95198,2311000,4,1,2775,Apartment
+7777 McLaughlin Ave,San Jose,CA,95187,735000,1,3,810,Single Family
+3371 Almaden Rd,San Jose,CA,95176,1841000,1,1,956,Apartment
+9570 King Rd,San Jose,CA,95175,2996000,4,1,1973,Apartment
+2931 Berryessa Rd,San Jose,CA,95110,1861000,4,3,2220,Apartment
+1071 Senter Rd,San Jose,CA,95157,2724000,4,4,2131,Apartment
+6773 Pomeroy Ave,San Jose,CA,95186,1346000,2,4,3109,Single Family
+3421 Lick Mill Blvd,San Jose,CA,95185,2342000,3,1,3666,Apartment
+1826 Quimby Rd,San Jose,CA,95197,2017000,2,3,1209,Apartment
+8369 Brophy Ct,San Jose,CA,95151,2846000,1,1,822,Apartment
+8630 Quimby Rd,San Jose,CA,95198,1453000,3,3,4945,Single Family
+8064 Tully Rd,San Jose,CA,95179,1143000,3,3,3279,Apartment
+8623 Quimby Rd,San Jose,CA,95178,2774000,6,4,1960,Single Family
+4820 Almaden Rd,San Jose,CA,95113,1134000,3,2,4649,Apartment
+7922 Lick Mill Blvd,San Jose,CA,95149,2871000,3,3,3960,Apartment
+3246 Fairway Drive,San Jose,CA,95141,1086000,1,1,3853,Single Family
+1269 Almaden Rd,San Jose,CA,95157,1563000,6,4,4228,Apartment
+3677 El Camino Real,San Jose,CA,95186,599000,1,3,4114,Single Family
+7939 Berryessa Rd,San Jose,CA,95175,2754000,6,3,4507,Single Family
+6370 Almaden Rd,San Jose,CA,95183,2859000,5,4,2329,Single Family
+7200 Lelong St,San Jose,CA,95125,803000,5,3,1465,Apartment
+1164 El Camino Real,San Jose,CA,95127,2883000,2,3,4321,Apartment
+9042 South Bascom Ave,San Jose,CA,95190,2104000,2,3,1601,Apartment
+3726 Berryessa Rd,San Jose,CA,95120,2633000,3,1,2667,Single Family
+9846 Brophy Ct,San Jose,CA,95153,1372000,4,2,3493,Apartment
+3627 Jackson Ave,San Jose,CA,95157,561000,2,2,4432,Single Family
+6083 Jackson Ave,San Jose,CA,95167,724000,5,3,1775,Apartment
+5461 Lick Mill Blvd,San Jose,CA,95113,2846000,5,3,1601,Single Family
+3000 King Rd,San Jose,CA,95144,2233000,6,3,1064,Apartment
+8216 Tully Rd,San Jose,CA,95193,2574000,3,2,1345,Single Family
+9587 Tully Rd,San Jose,CA,95187,2405000,3,3,2957,Single Family
+7559 Lelong St,San Jose,CA,95196,1215000,1,1,2179,Apartment
+3033 McLaughlin Ave,San Jose,CA,95197,581000,2,2,2727,Single Family
+5296 McLaughlin Ave,San Jose,CA,95182,2783000,2,3,2014,Single Family
+4508 South Bascom Ave,San Jose,CA,95139,1297000,6,3,3643,Single Family
+5758 Pomeroy Ave,San Jose,CA,95111,2211000,3,3,3934,Apartment
+2474 South Bascom Ave,San Jose,CA,95189,2847000,2,4,2625,Apartment
+1219 King Rd,San Jose,CA,95186,1654000,4,1,1486,Apartment
+2566 Quimby Rd,San Jose,CA,95186,1135000,1,4,2624,Apartment
+6094 Silver Creek Valley Rd,San Jose,CA,95166,2124000,2,2,1912,Single Family
+6602 Silver Creek Valley Rd,San Jose,CA,95140,1387000,1,1,1296,Single Family
+5395 Silver Creek Valley Rd,San Jose,CA,95111,1880000,4,1,1066,Single Family
+1748 Senter Rd,San Jose,CA,95178,563000,5,2,1761,Apartment
+1996 Santa Teresa Blvd,San Jose,CA,95154,2133000,3,3,3926,Apartment
+1254 Lelong St,San Jose,CA,95139,2431000,5,2,2365,Apartment
+6105 Fairway Drive,San Jose,CA,95171,2323000,2,2,1487,Apartment
+1191 Pomeroy Ave,San Jose,CA,95172,1024000,4,2,2899,Single Family
+5209 Senter Rd,San Jose,CA,95126,533000,4,1,1621,Single Family
+6799 Tully Rd,San Jose,CA,95184,1321000,6,3,1457,Apartment
+8760 Silver Creek Valley Rd,San Jose,CA,95142,2910000,1,4,2103,Single Family
+1003 El Camino Real,San Jose,CA,95143,1223000,5,3,3455,Single Family
+6440 Piedmont Rd,San Jose,CA,95198,1828000,3,3,2375,Apartment
+5026 Jackson Ave,San Jose,CA,95165,2694000,1,2,1802,Apartment
+1069 Silver Creek Valley Rd,San Jose,CA,95157,971000,5,1,2629,Single Family
+3536 Muirwood Dr,San Jose,CA,95152,969000,1,1,2087,Single Family
+5660 Fairway Drive,San Jose,CA,95168,2216000,6,4,3657,Apartment
+6319 Brophy Ct,San Jose,CA,95138,1943000,3,1,3051,Single Family
+3854 Lelong St,San Jose,CA,95194,1014000,4,4,2585,Apartment
+1926 Quimby Rd,San Jose,CA,95141,2005000,2,1,3392,Apartment
+5899 Jackson Ave,San Jose,CA,95125,1669000,2,3,2937,Apartment
+3054 Piedmont Rd,San Jose,CA,95151,2919000,2,2,1572,Apartment
+1357 Pomeroy Ave,San Jose,CA,95159,1369000,1,1,2255,Single Family
+8947 Pomeroy Ave,San Jose,CA,95174,1464000,1,2,4889,Apartment
+6859 McKee Rd,San Jose,CA,95153,725000,3,3,4378,Single Family
+9261 Muirwood Dr,San Jose,CA,95110,1419000,1,3,4626,Apartment
+6340 Berryessa Rd,San Jose,CA,95192,1460000,6,3,3667,Apartment
+5327 Senter Rd,San Jose,CA,95120,1442000,4,2,1841,Apartment
+2672 Lick Mill Blvd,San Jose,CA,95150,2542000,6,3,4930,Single Family
+9585 Fairway Drive,San Jose,CA,95141,2868000,1,2,1315,Apartment
+4103 Mabury Rd,San Jose,CA,95176,617000,3,2,1701,Apartment
+9663 Mabury Rd,San Jose,CA,95113,2567000,2,2,3617,Single Family
+2750 Quimby Rd,San Jose,CA,95182,1570000,3,4,1897,Apartment
+7575 Quimby Rd,San Jose,CA,95195,1227000,6,2,1417,Single Family
+2887 Brophy Ct,San Jose,CA,95189,2548000,3,3,4931,Apartment
+1737 Berryessa Rd,San Jose,CA,95191,1718000,4,3,4652,Apartment
+6286 Fairway Drive,San Jose,CA,95172,2369000,4,2,3664,Single Family
+5428 Muirwood Dr,San Jose,CA,95118,655000,1,1,2050,Single Family
+3219 Almaden Rd,San Jose,CA,95152,1892000,5,4,3116,Apartment
+2779 Lelong St,San Jose,CA,95130,2336000,6,1,4619,Apartment
+9696 Quimby Rd,San Jose,CA,95196,642000,1,1,3306,Apartment
+5099 Berryessa Rd,San Jose,CA,95139,1504000,6,3,4033,Single Family
+5948 Monterey Hwy,San Jose,CA,95132,702000,4,2,1137,Apartment
+5710 Silver Creek Valley Rd,San Jose,CA,95152,2686000,6,1,3729,Single Family
+7342 McKee Rd,San Jose,CA,95123,1900000,1,2,4763,Single Family
+3926 Pomeroy Ave,San Jose,CA,95164,733000,1,3,4670,Apartment
+7653 Silver Creek Valley Rd,San Jose,CA,95152,2933000,3,3,3272,Apartment
+8984 Senter Rd,San Jose,CA,95179,1280000,5,3,1793,Single Family
+1927 Mabury Rd,San Jose,CA,95170,1029000,5,4,1269,Single Family
+8368 Tully Rd,San Jose,CA,95158,1223000,5,2,4925,Single Family
+1905 King Rd,San Jose,CA,95120,2515000,3,2,3193,Apartment
+5195 Lelong St,San Jose,CA,95170,1131000,1,1,4928,Single Family
+9995 Lick Mill Blvd,San Jose,CA,95180,758000,5,1,2495,Single Family
+2657 Piedmont Rd,San Jose,CA,95150,1308000,4,4,4487,Single Family
+2201 Muirwood Dr,San Jose,CA,95125,2948000,3,2,2352,Single Family
+5393 Mabury Rd,San Jose,CA,95128,1631000,1,1,4564,Apartment
+7966 Lelong St,San Jose,CA,95193,1103000,4,1,1622,Single Family
+5414 Fairway Drive,San Jose,CA,95114,1373000,3,4,1566,Single Family
+7895 Fairway Drive,San Jose,CA,95193,1408000,1,3,2467,Single Family
+9748 Tully Rd,San Jose,CA,95132,2377000,6,3,966,Single Family
+1541 King Rd,San Jose,CA,95169,1283000,4,3,1729,Apartment
+2297 Muirwood Dr,San Jose,CA,95142,2324000,4,2,998,Single Family
+1438 Muirwood Dr,San Jose,CA,95123,658000,4,1,1950,Apartment
+9974 Silver Creek Valley Rd,San Jose,CA,95115,1340000,1,1,3712,Apartment
+4212 Senter Rd,San Jose,CA,95114,2527000,1,4,3062,Apartment
+7370 Brophy Ct,San Jose,CA,95132,1585000,2,3,4018,Apartment
+7134 El Camino Real,San Jose,CA,95161,810000,2,3,3153,Apartment
+2642 Mabury Rd,San Jose,CA,95147,2733000,6,2,3357,Apartment
+1342 South Bascom Ave,San Jose,CA,95140,1086000,3,4,879,Single Family
+3269 McKee Rd,San Jose,CA,95119,1004000,6,2,4212,Apartment
+3500 Tully Rd,San Jose,CA,95126,1614000,2,4,2805,Single Family
+9956 Jackson Ave,San Jose,CA,95133,1404000,4,1,1556,Single Family
+6794 Blossom Hill Road,San Jose,CA,95164,588000,4,2,2025,Single Family
+1351 Fairway Drive,San Jose,CA,95140,2884000,4,3,3433,Single Family
+3390 Monterey Hwy,San Jose,CA,95173,2822000,1,2,2591,Apartment
+3479 Jackson Ave,San Jose,CA,95168,1640000,1,3,3493,Apartment
+6813 Senter Rd,San Jose,CA,95136,621000,6,4,889,Single Family
+7020 Muirwood Dr,San Jose,CA,95153,2771000,1,1,1078,Apartment
+3068 King Rd,San Jose,CA,95113,2009000,1,3,3428,Single Family
+6686 Silver Creek Valley Rd,San Jose,CA,95138,2813000,6,3,2815,Single Family
+3822 Lelong St,San Jose,CA,95132,800000,3,3,3898,Single Family
+8957 Berryessa Rd,San Jose,CA,95137,1896000,4,2,947,Single Family
+2388 Blossom Hill Road,San Jose,CA,95174,518000,4,3,4552,Single Family
+3754 Almaden Rd,San Jose,CA,95140,2779000,3,4,3165,Single Family
+9436 Quimby Rd,San Jose,CA,95199,1261000,4,1,1416,Apartment
+2989 South Bascom Ave,San Jose,CA,95169,1925000,1,1,2912,Apartment
+9661 Tully Rd,San Jose,CA,95168,1352000,6,2,1172,Apartment
+4506 Senter Rd,San Jose,CA,95182,1360000,4,4,4382,Single Family
+5314 Quimby Rd,San Jose,CA,95165,2229000,5,2,4519,Apartment
+6084 South Bascom Ave,San Jose,CA,95152,2911000,5,4,3065,Single Family
+1605 Blossom Hill Road,San Jose,CA,95185,1642000,3,2,2962,Single Family
+8904 McLaughlin Ave,San Jose,CA,95174,1334000,3,2,4257,Single Family
+4257 McLaughlin Ave,San Jose,CA,95163,2694000,3,4,2219,Single Family
+2191 Berryessa Rd,San Jose,CA,95188,611000,6,4,3104,Apartment
+8105 Pomeroy Ave,San Jose,CA,95162,967000,2,2,2209,Apartment
+2460 Jackson Ave,San Jose,CA,95118,1009000,5,3,1899,Apartment
+8395 Lelong St,San Jose,CA,95194,513000,2,3,3810,Apartment
+9293 El Camino Real,San Jose,CA,95167,1537000,5,2,2448,Apartment
+8354 Lick Mill Blvd,San Jose,CA,95199,524000,6,4,4028,Apartment
+7005 Brophy Ct,San Jose,CA,95157,1017000,6,1,3988,Single Family
+3131 South Bascom Ave,San Jose,CA,95158,1854000,3,2,4822,Single Family
+8524 Berryessa Rd,San Jose,CA,95159,636000,6,2,5000,Single Family
+8262 Senter Rd,San Jose,CA,95125,673000,4,1,3875,Single Family
+2427 Quimby Rd,San Jose,CA,95159,2917000,1,1,1839,Single Family
+1189 Silver Creek Valley Rd,San Jose,CA,95144,1896000,3,1,2584,Single Family
+7561 Senter Rd,San Jose,CA,95130,2122000,6,3,2157,Single Family
+9362 Santa Teresa Blvd,San Jose,CA,95114,947000,3,4,2509,Apartment
+7191 Silver Creek Valley Rd,San Jose,CA,95110,2725000,4,1,3046,Single Family
+1182 Fairway Drive,San Jose,CA,95135,2864000,2,2,2976,Apartment
+6776 South Bascom Ave,San Jose,CA,95169,1333000,3,1,4985,Apartment
+5722 Muirwood Dr,San Jose,CA,95150,597000,2,3,1384,Apartment
+8852 Almaden Rd,San Jose,CA,95188,1656000,4,2,3550,Single Family
+5397 Muirwood Dr,San Jose,CA,95176,617000,3,1,1471,Apartment
+1332 Brophy Ct,San Jose,CA,95194,2284000,4,1,829,Single Family
+1215 King Rd,San Jose,CA,95150,676000,2,2,1942,Single Family
+2635 Almaden Rd,San Jose,CA,95127,1195000,2,1,1300,Apartment
+3572 South Bascom Ave,San Jose,CA,95119,2891000,2,2,4095,Single Family
+2093 Quimby Rd,San Jose,CA,95118,1648000,1,1,1458,Apartment
+4500 Lick Mill Blvd,San Jose,CA,95112,894000,2,4,3602,Single Family
+8968 Santa Teresa Blvd,San Jose,CA,95143,1465000,1,1,1150,Single Family
+3315 Jackson Ave,San Jose,CA,95138,2061000,5,1,3121,Apartment
+4292 Piedmont Rd,San Jose,CA,95142,848000,6,2,1512,Single Family
+4491 Piedmont Rd,San Jose,CA,95170,2179000,6,4,3765,Single Family
+4293 Silver Creek Valley Rd,San Jose,CA,95124,2980000,3,2,3104,Apartment
+8226 Muirwood Dr,San Jose,CA,95179,2492000,1,1,2954,Apartment
+8975 Berryessa Rd,San Jose,CA,95155,2756000,1,4,3649,Single Family
+2582 Lick Mill Blvd,San Jose,CA,95168,799000,5,3,4642,Single Family
+2682 Muirwood Dr,San Jose,CA,95161,508000,4,1,3693,Single Family
+4653 Mabury Rd,San Jose,CA,95139,2714000,1,1,4941,Single Family
+3643 Almaden Rd,San Jose,CA,95115,2154000,1,1,3474,Apartment
+7272 Jackson Ave,San Jose,CA,95181,1722000,1,4,3802,Single Family
+9918 El Camino Real,San Jose,CA,95129,586000,4,1,4117,Single Family
+9881 McLaughlin Ave,San Jose,CA,95190,1153000,4,3,2142,Single Family
+1877 Monterey Hwy,San Jose,CA,95172,1817000,1,3,1112,Single Family
+1274 Muirwood Dr,San Jose,CA,95153,2832000,2,1,4074,Apartment
+3610 Monterey Hwy,San Jose,CA,95128,1333000,3,3,2370,Apartment
+6993 Jackson Ave,San Jose,CA,95198,1294000,1,3,915,Apartment
+3597 Almaden Rd,San Jose,CA,95136,2050000,4,4,1501,Apartment
+2384 McKee Rd,San Jose,CA,95156,1521000,5,4,2076,Single Family
+9248 Santa Teresa Blvd,San Jose,CA,95182,2636000,6,3,3652,Apartment
+8261 South Bascom Ave,San Jose,CA,95127,1542000,5,3,1927,Single Family
+9098 Pomeroy Ave,San Jose,CA,95142,2773000,4,3,4074,Single Family
+1369 Blossom Hill Road,San Jose,CA,95111,699000,4,1,1490,Apartment
+9535 Fairway Drive,San Jose,CA,95171,1982000,4,2,4462,Single Family
+9709 Fairway Drive,San Jose,CA,95187,845000,2,1,812,Single Family
+8903 Quimby Rd,San Jose,CA,95110,1558000,4,2,4097,Apartment
+9037 Santa Teresa Blvd,San Jose,CA,95115,2685000,4,2,4716,Apartment
+5158 Monterey Hwy,San Jose,CA,95144,1773000,3,3,2604,Apartment
+4569 McKee Rd,San Jose,CA,95179,1855000,6,3,2359,Single Family
+8649 Fairway Drive,San Jose,CA,95116,599000,5,1,1618,Apartment
+7578 El Camino Real,San Jose,CA,95188,1647000,5,3,4827,Apartment
+9386 South Bascom Ave,San Jose,CA,95110,1418000,3,4,3021,Apartment
+3804 El Camino Real,San Jose,CA,95135,722000,5,1,884,Single Family
+9900 McKee Rd,San Jose,CA,95156,2971000,5,4,2754,Single Family
+7332 Berryessa Rd,San Jose,CA,95125,2558000,6,3,3594,Single Family
+9059 King Rd,San Jose,CA,95166,2923000,5,3,1321,Single Family
+7295 Muirwood Dr,San Jose,CA,95130,2746000,5,4,2364,Apartment
+3255 King Rd,San Jose,CA,95129,2040000,4,4,1224,Apartment
+9331 Lick Mill Blvd,San Jose,CA,95186,874000,5,1,3938,Apartment
+1239 McLaughlin Ave,San Jose,CA,95126,2681000,6,1,2718,Apartment
+4673 El Camino Real,San Jose,CA,95136,1159000,3,3,3199,Single Family
+2758 Berryessa Rd,San Jose,CA,95133,1322000,3,4,4661,Single Family
+3108 Monterey Hwy,San Jose,CA,95191,2426000,4,2,2737,Apartment
+9024 Pomeroy Ave,San Jose,CA,95132,1968000,3,4,2416,Single Family
+2145 Jackson Ave,San Jose,CA,95115,739000,2,3,3239,Apartment
+3568 Blossom Hill Road,San Jose,CA,95157,634000,2,2,2790,Apartment
+7317 Muirwood Dr,San Jose,CA,95112,1192000,3,4,3708,Apartment
+3149 Jackson Ave,San Jose,CA,95154,614000,3,3,3461,Single Family
+1496 Pomeroy Ave,San Jose,CA,95178,2827000,1,4,3526,Single Family
+7328 Piedmont Rd,San Jose,CA,95131,2962000,6,4,1637,Apartment
+8416 Quimby Rd,San Jose,CA,95112,1385000,6,2,2797,Apartment
+3278 Fairway Drive,San Jose,CA,95143,2295000,2,4,1833,Single Family
+3629 Santa Teresa Blvd,San Jose,CA,95165,587000,3,1,3982,Apartment
+8967 El Camino Real,San Jose,CA,95187,2854000,3,4,3237,Single Family
+4878 Blossom Hill Road,San Jose,CA,95174,1762000,3,3,4381,Single Family
+2300 Mabury Rd,San Jose,CA,95191,2529000,2,2,1767,Apartment
+2085 Tully Rd,San Jose,CA,95115,878000,4,2,3444,Apartment
+1063 Santa Teresa Blvd,San Jose,CA,95188,2779000,6,3,3664,Apartment
+3264 McKee Rd,San Jose,CA,95118,2511000,3,2,4152,Apartment
+6865 Almaden Rd,San Jose,CA,95153,2691000,5,3,2007,Apartment
+9851 Silver Creek Valley Rd,San Jose,CA,95162,1775000,1,3,1349,Single Family
+7492 Blossom Hill Road,San Jose,CA,95198,993000,5,2,2550,Single Family
+5739 Berryessa Rd,San Jose,CA,95183,2456000,3,4,2499,Single Family
+9655 Senter Rd,San Jose,CA,95151,2776000,2,2,2957,Apartment
+9634 El Camino Real,San Jose,CA,95176,2579000,5,4,4261,Apartment
+4750 Quimby Rd,San Jose,CA,95111,2934000,6,2,4432,Single Family
+2116 McLaughlin Ave,San Jose,CA,95187,2550000,3,2,4432,Single Family
+6466 King Rd,San Jose,CA,95167,2502000,3,4,1308,Apartment
+2662 Monterey Hwy,San Jose,CA,95153,2509000,5,3,3489,Single Family
+4844 Fairway Drive,San Jose,CA,95199,1407000,5,3,2475,Single Family
+6226 Muirwood Dr,San Jose,CA,95186,778000,1,3,4335,Apartment
+9264 Fairway Drive,San Jose,CA,95165,910000,3,4,1205,Apartment
+5395 Fairway Drive,San Jose,CA,95122,519000,6,3,2281,Single Family
+2579 McKee Rd,San Jose,CA,95182,895000,3,4,3960,Single Family
+5320 Silver Creek Valley Rd,San Jose,CA,95120,1800000,2,1,3243,Apartment
+7511 Blossom Hill Road,San Jose,CA,95182,2756000,6,3,3802,Apartment
+7246 Almaden Rd,San Jose,CA,95142,1819000,3,2,2713,Apartment
+5430 Fairway Drive,San Jose,CA,95195,2755000,6,4,1060,Apartment
+2214 Silver Creek Valley Rd,San Jose,CA,95162,2963000,2,4,822,Apartment
+6326 South Bascom Ave,San Jose,CA,95178,2788000,1,3,2066,Apartment
+5756 Almaden Rd,San Jose,CA,95126,2750000,1,3,3213,Apartment
+1269 Quimby Rd,San Jose,CA,95166,2766000,6,1,4073,Apartment
+3364 Tully Rd,San Jose,CA,95114,1399000,1,4,879,Apartment
+7646 King Rd,San Jose,CA,95124,2789000,1,1,1846,Apartment
+6439 Pomeroy Ave,San Jose,CA,95174,602000,2,2,833,Single Family
+7105 Piedmont Rd,San Jose,CA,95160,2576000,2,3,3233,Apartment
+7729 South Bascom Ave,San Jose,CA,95198,2254000,1,1,2035,Single Family
+6895 Piedmont Rd,San Jose,CA,95182,1582000,5,4,2958,Single Family
+6583 Muirwood Dr,San Jose,CA,95175,1602000,2,3,2487,Apartment
+9115 Brophy Ct,San Jose,CA,95169,1093000,3,2,3261,Apartment
+5113 Santa Teresa Blvd,San Jose,CA,95176,1664000,5,1,2383,Apartment
+8600 Mabury Rd,San Jose,CA,95142,992000,6,3,3820,Single Family
+4675 South Bascom Ave,San Jose,CA,95123,1233000,4,1,1733,Apartment
+2627 Santa Teresa Blvd,San Jose,CA,95148,1229000,5,3,3958,Apartment
+5492 Jackson Ave,San Jose,CA,95186,608000,1,2,4458,Apartment
+3184 King Rd,San Jose,CA,95184,595000,3,2,4645,Single Family
+4006 Monterey Hwy,San Jose,CA,95153,1235000,1,2,2687,Single Family
+1456 Silver Creek Valley Rd,San Jose,CA,95156,1551000,6,2,1478,Single Family
+8237 Jackson Ave,San Jose,CA,95169,1465000,2,1,4239,Apartment
+1152 Pomeroy Ave,San Jose,CA,95195,1956000,3,2,2230,Single Family
+1688 El Camino Real,San Jose,CA,95121,1659000,4,1,1258,Single Family
+6814 Fairway Drive,San Jose,CA,95186,853000,1,1,1836,Single Family
+5468 Santa Teresa Blvd,San Jose,CA,95126,2188000,4,4,1297,Single Family
+2101 Almaden Rd,San Jose,CA,95188,917000,5,3,1401,Apartment
+6552 Lick Mill Blvd,San Jose,CA,95135,521000,2,2,3127,Apartment
+8405 Fairway Drive,San Jose,CA,95144,1868000,3,2,3860,Single Family
+5237 Berryessa Rd,San Jose,CA,95195,754000,6,2,3747,Single Family
+4104 Lick Mill Blvd,San Jose,CA,95164,1716000,6,2,3743,Apartment
+9246 Quimby Rd,San Jose,CA,95154,1195000,5,2,2677,Single Family
+4849 South Bascom Ave,San Jose,CA,95159,2548000,3,4,1970,Single Family
+1457 Fairway Drive,San Jose,CA,95119,2878000,6,3,1204,Apartment
+2525 Quimby Rd,San Jose,CA,95196,554000,6,4,4474,Apartment
+9019 Pomeroy Ave,San Jose,CA,95168,864000,2,4,2221,Single Family
+3176 Brophy Ct,San Jose,CA,95197,2311000,3,2,1234,Apartment
+7202 Santa Teresa Blvd,San Jose,CA,95185,1183000,1,2,1947,Apartment
+7810 Berryessa Rd,San Jose,CA,95181,1337000,6,2,3047,Single Family
+1253 Silver Creek Valley Rd,San Jose,CA,95144,849000,2,4,2167,Single Family
+2072 Brophy Ct,San Jose,CA,95155,1752000,5,2,826,Single Family
+8977 Jackson Ave,San Jose,CA,95141,1237000,2,1,1892,Apartment
+7225 Muirwood Dr,San Jose,CA,95188,1422000,4,1,3934,Single Family
+8443 McKee Rd,San Jose,CA,95172,1010000,6,4,1900,Single Family
+3167 Berryessa Rd,San Jose,CA,95188,1763000,4,1,3436,Apartment
+3642 King Rd,San Jose,CA,95176,1806000,4,3,3011,Apartment
+3890 Monterey Hwy,San Jose,CA,95193,2212000,5,2,4527,Apartment
+9949 Berryessa Rd,San Jose,CA,95124,2192000,4,3,2242,Apartment
+7063 Pomeroy Ave,San Jose,CA,95133,2631000,3,1,4873,Single Family
+9565 McKee Rd,San Jose,CA,95164,994000,5,4,2742,Single Family
+1893 Piedmont Rd,San Jose,CA,95198,2109000,1,3,3739,Single Family
+2911 McKee Rd,San Jose,CA,95176,2580000,3,4,3790,Apartment
+8526 Quimby Rd,San Jose,CA,95150,2255000,6,1,1941,Single Family
+5239 Lelong St,San Jose,CA,95130,2189000,5,1,1843,Apartment
+3894 South Bascom Ave,San Jose,CA,95149,2971000,6,4,1267,Apartment
+8874 Tully Rd,San Jose,CA,95136,2390000,5,4,2304,Apartment
+1257 Jackson Ave,San Jose,CA,95119,803000,6,2,1577,Apartment
+2678 Monterey Hwy,San Jose,CA,95146,1183000,1,4,3912,Single Family
+3202 Santa Teresa Blvd,San Jose,CA,95195,2591000,3,1,3148,Single Family
+7651 McKee Rd,San Jose,CA,95178,900000,2,1,3556,Apartment
+9527 Lick Mill Blvd,San Jose,CA,95156,680000,6,2,871,Single Family
+2857 Tully Rd,San Jose,CA,95122,2016000,4,4,4372,Apartment
+8854 El Camino Real,San Jose,CA,95191,2862000,6,1,4815,Apartment
+4767 Brophy Ct,San Jose,CA,95166,717000,3,3,3770,Apartment
+6591 Monterey Hwy,San Jose,CA,95153,2400000,1,3,2593,Apartment
+1958 El Camino Real,San Jose,CA,95169,2075000,6,1,2088,Single Family
+4315 Fairway Drive,San Jose,CA,95194,2930000,1,2,1185,Single Family
+3771 Muirwood Dr,San Jose,CA,95166,1023000,1,4,4149,Apartment
+8184 Mabury Rd,San Jose,CA,95174,1344000,1,4,2863,Apartment
+8655 McKee Rd,San Jose,CA,95128,1063000,2,4,3021,Single Family
+1417 Santa Teresa Blvd,San Jose,CA,95185,2019000,6,3,1777,Single Family
+4794 King Rd,San Jose,CA,95155,1067000,6,1,3920,Single Family
+9976 Fairway Drive,San Jose,CA,95136,724000,4,4,3595,Apartment
+2249 Mabury Rd,San Jose,CA,95151,1632000,2,3,1434,Single Family
+7584 Berryessa Rd,San Jose,CA,95147,1736000,6,2,3631,Single Family
+4452 Berryessa Rd,San Jose,CA,95125,1271000,1,1,1978,Single Family
+1711 Berryessa Rd,San Jose,CA,95126,1746000,4,3,4711,Apartment
+3247 Piedmont Rd,San Jose,CA,95160,949000,2,3,2801,Single Family
+8208 McKee Rd,San Jose,CA,95135,1771000,1,4,3301,Apartment
+6470 Fairway Drive,San Jose,CA,95172,779000,6,4,3121,Single Family
+4470 Muirwood Dr,San Jose,CA,95122,2059000,3,2,4441,Single Family
+1646 Monterey Hwy,San Jose,CA,95125,1034000,1,4,4063,Single Family
+8652 Blossom Hill Road,San Jose,CA,95147,1174000,4,3,4130,Apartment
+5936 Lelong St,San Jose,CA,95190,1882000,6,4,3694,Apartment
+2722 McLaughlin Ave,San Jose,CA,95194,804000,3,4,2023,Apartment
+5985 El Camino Real,San Jose,CA,95172,2772000,3,1,2784,Single Family
+6647 Monterey Hwy,San Jose,CA,95197,664000,5,1,2349,Single Family
+4785 Brophy Ct,San Jose,CA,95127,2742000,3,3,3368,Single Family
+5368 Pomeroy Ave,San Jose,CA,95148,2380000,3,2,1347,Apartment
+9540 South Bascom Ave,San Jose,CA,95191,2377000,5,2,3813,Apartment
+2884 Berryessa Rd,San Jose,CA,95128,1974000,6,4,3705,Single Family
+1162 Jackson Ave,San Jose,CA,95196,1865000,6,2,4208,Apartment
+1654 Lelong St,San Jose,CA,95164,564000,4,3,2355,Apartment
+9070 Silver Creek Valley Rd,San Jose,CA,95174,1006000,2,2,3704,Apartment
+1870 Blossom Hill Road,San Jose,CA,95154,779000,3,2,926,Apartment
+2038 King Rd,San Jose,CA,95114,684000,4,1,4998,Apartment
+4678 Quimby Rd,San Jose,CA,95128,1923000,1,2,820,Single Family
+2663 McLaughlin Ave,San Jose,CA,95136,1405000,1,2,4775,Single Family
+8800 Jackson Ave,San Jose,CA,95124,2949000,1,1,1287,Apartment
+3387 McLaughlin Ave,San Jose,CA,95184,1059000,5,2,1665,Apartment
+1714 Monterey Hwy,San Jose,CA,95163,2610000,5,4,3792,Apartment
+6874 Quimby Rd,San Jose,CA,95149,1287000,3,2,881,Single Family
+8814 McLaughlin Ave,San Jose,CA,95156,1746000,1,2,3310,Single Family
+5001 Muirwood Dr,San Jose,CA,95112,1766000,4,2,4359,Apartment
+7547 Brophy Ct,San Jose,CA,95196,2479000,2,2,4511,Apartment
+4912 Tully Rd,San Jose,CA,95145,2528000,5,3,4950,Single Family
+8555 El Camino Real,San Jose,CA,95148,587000,1,1,1092,Apartment
+7452 Lelong St,San Jose,CA,95190,2788000,1,4,4771,Single Family
+7013 King Rd,San Jose,CA,95152,1945000,5,4,2008,Apartment
+8497 King Rd,San Jose,CA,95162,566000,5,3,1782,Single Family
+9526 Mabury Rd,San Jose,CA,95168,797000,5,2,2838,Apartment
+2925 Mabury Rd,San Jose,CA,95121,2116000,4,2,1661,Single Family
+3189 Mabury Rd,San Jose,CA,95177,1657000,5,4,4867,Single Family
+4159 McLaughlin Ave,San Jose,CA,95160,2418000,3,1,4623,Apartment
+5235 Brophy Ct,San Jose,CA,95126,2239000,5,2,2722,Apartment
+6985 Senter Rd,San Jose,CA,95116,2700000,6,1,1887,Apartment
+6487 Senter Rd,San Jose,CA,95153,740000,6,2,1757,Apartment
+6861 Brophy Ct,San Jose,CA,95173,2223000,6,1,1888,Single Family
+2311 Blossom Hill Road,San Jose,CA,95171,1565000,5,3,1813,Single Family
+1681 Muirwood Dr,San Jose,CA,95131,1321000,1,2,3452,Single Family
+9444 McKee Rd,San Jose,CA,95177,940000,3,3,4712,Apartment
+7237 Berryessa Rd,San Jose,CA,95199,1461000,1,2,2907,Single Family
+2475 Silver Creek Valley Rd,San Jose,CA,95164,2932000,2,1,4471,Single Family
+5691 Almaden Rd,San Jose,CA,95133,521000,6,1,3019,Single Family
+6023 Silver Creek Valley Rd,San Jose,CA,95119,883000,1,2,3366,Apartment
+9209 Berryessa Rd,San Jose,CA,95113,2416000,5,2,4413,Apartment
+2989 El Camino Real,San Jose,CA,95195,2323000,4,1,4686,Apartment
+4613 Lick Mill Blvd,San Jose,CA,95190,933000,5,4,2589,Single Family
+3910 Pomeroy Ave,San Jose,CA,95199,2301000,1,3,3253,Apartment
+3489 Piedmont Rd,San Jose,CA,95148,778000,5,4,932,Single Family
+8942 Quimby Rd,San Jose,CA,95112,612000,2,3,3350,Single Family
+9618 Berryessa Rd,San Jose,CA,95163,2639000,5,3,1821,Single Family
+3556 Berryessa Rd,San Jose,CA,95199,2278000,3,1,2011,Apartment
+8744 Jackson Ave,San Jose,CA,95170,1246000,6,3,3384,Single Family
+6996 Tully Rd,San Jose,CA,95120,2231000,6,2,3504,Apartment
+2619 Blossom Hill Road,San Jose,CA,95180,2032000,1,4,2535,Apartment
+2605 Monterey Hwy,San Jose,CA,95126,2466000,1,1,1999,Apartment
+7787 McLaughlin Ave,San Jose,CA,95145,1517000,4,3,4524,Single Family
+3534 Mabury Rd,San Jose,CA,95144,1586000,3,3,1678,Apartment
+5320 Brophy Ct,San Jose,CA,95118,869000,3,1,1624,Single Family
+7126 King Rd,San Jose,CA,95194,1510000,2,2,1848,Single Family
+3073 Jackson Ave,San Jose,CA,95199,2284000,2,4,1385,Single Family
+6035 Monterey Hwy,San Jose,CA,95128,1722000,5,2,1535,Single Family
+4571 Silver Creek Valley Rd,San Jose,CA,95193,2568000,2,1,1275,Single Family
+6339 Almaden Rd,San Jose,CA,95166,695000,3,1,3388,Single Family
+9873 Mabury Rd,San Jose,CA,95189,958000,3,1,939,Apartment
+2552 McLaughlin Ave,San Jose,CA,95131,2211000,1,1,2085,Apartment
+4556 South Bascom Ave,San Jose,CA,95154,2394000,3,4,1727,Single Family
+4833 Monterey Hwy,San Jose,CA,95168,1061000,5,1,3960,Single Family
+5360 Quimby Rd,San Jose,CA,95161,2542000,5,2,4656,Apartment
+2475 Muirwood Dr,San Jose,CA,95110,2171000,4,4,1505,Single Family
+9987 Mabury Rd,San Jose,CA,95166,1890000,2,1,1894,Single Family
+8279 Lelong St,San Jose,CA,95170,2315000,5,3,1583,Single Family
+6517 Silver Creek Valley Rd,San Jose,CA,95131,1144000,2,1,1236,Single Family
+9221 Jackson Ave,San Jose,CA,95125,1958000,6,4,1784,Single Family
+4053 Jackson Ave,San Jose,CA,95139,2597000,6,4,4502,Apartment
+8639 Fairway Drive,San Jose,CA,95175,2642000,5,3,2308,Single Family
+9961 South Bascom Ave,San Jose,CA,95172,2944000,4,2,1670,Single Family
+8943 Silver Creek Valley Rd,San Jose,CA,95148,2607000,5,2,3090,Apartment
+7611 South Bascom Ave,San Jose,CA,95111,1924000,5,1,1515,Single Family
+5733 El Camino Real,San Jose,CA,95186,2314000,5,3,2218,Single Family
+7658 Blossom Hill Road,San Jose,CA,95110,2581000,4,3,2401,Apartment
+5114 King Rd,San Jose,CA,95146,2824000,1,2,1906,Single Family
+6029 Senter Rd,San Jose,CA,95125,1137000,2,3,1814,Single Family
+2304 Brophy Ct,San Jose,CA,95152,1806000,3,2,4240,Single Family
+9622 McLaughlin Ave,San Jose,CA,95122,1274000,2,4,1833,Single Family
+7957 Pomeroy Ave,San Jose,CA,95140,770000,3,4,1946,Apartment
+6173 Piedmont Rd,San Jose,CA,95172,1550000,5,4,1293,Apartment
+3705 Santa Teresa Blvd,San Jose,CA,95157,559000,2,1,1292,Apartment
+9351 McKee Rd,San Jose,CA,95114,2775000,6,1,2355,Apartment
+6248 Mabury Rd,San Jose,CA,95153,2136000,1,2,1644,Single Family
+4086 Muirwood Dr,San Jose,CA,95154,951000,6,2,3434,Single Family
+6823 Monterey Hwy,San Jose,CA,95151,2516000,1,4,1133,Single Family
+4260 McKee Rd,San Jose,CA,95192,718000,1,2,4777,Single Family
+1518 Monterey Hwy,San Jose,CA,95186,2040000,1,3,3021,Single Family
+5088 McKee Rd,San Jose,CA,95161,1776000,3,1,4715,Apartment
+9641 Tully Rd,San Jose,CA,95123,692000,2,1,4754,Single Family
+9761 Fairway Drive,San Jose,CA,95172,1872000,6,2,2352,Single Family
+4636 Tully Rd,San Jose,CA,95162,2087000,2,4,919,Apartment
+8779 Monterey Hwy,San Jose,CA,95155,2775000,2,1,1007,Single Family
+6782 McLaughlin Ave,San Jose,CA,95174,782000,4,1,2213,Apartment
+1190 McKee Rd,San Jose,CA,95158,2752000,3,1,4201,Apartment
+2270 Lick Mill Blvd,San Jose,CA,95158,627000,2,4,996,Apartment
+3687 Mabury Rd,San Jose,CA,95111,2474000,4,2,4745,Single Family
+6788 Jackson Ave,San Jose,CA,95154,1589000,4,1,4705,Apartment
+6292 McLaughlin Ave,San Jose,CA,95167,1020000,4,4,2658,Apartment
+4588 Pomeroy Ave,San Jose,CA,95129,2488000,3,4,2172,Apartment
+2515 Lick Mill Blvd,San Jose,CA,95173,1974000,5,2,4355,Single Family
+7782 Silver Creek Valley Rd,San Jose,CA,95146,2488000,5,4,1148,Single Family
+3135 Senter Rd,San Jose,CA,95154,651000,3,4,1573,Single Family
+8142 Mabury Rd,San Jose,CA,95166,655000,6,1,3094,Apartment
+8547 Pomeroy Ave,San Jose,CA,95127,1023000,3,2,4038,Single Family
+9439 Berryessa Rd,San Jose,CA,95140,1996000,6,4,4545,Single Family
+7994 Quimby Rd,San Jose,CA,95182,1108000,4,4,3280,Apartment
