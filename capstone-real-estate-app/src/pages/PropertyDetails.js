@@ -13,7 +13,7 @@ const PropertyDetails = () => {
   return (
     <div className="details-container">
       <div className="details-card">
-        <img src={property.image_path} alt={property.city} />
+        <img src={property.image_url} alt={property.city} />
         <h1>{property.street_address}</h1>
         <p className="price">Price: {property.price}</p>
         <p className="location">Number of bedrooms: {property.bedrooms}</p>

@@ -60,15 +60,15 @@ const Home = () => {
 
       <h1 className="home-title">Welcome to the Real Haven
      </h1>
-     <img src="images/logo.jpeg" class="logo-style"></img>
+     <img src="images/logo.jpeg" className="logo-style"></img>
       <button className="login-button" onClick={openLoginForm}>
         Login
       </button>
       
-      <div class="input-search">
+      <div className="input-search">
       <div>
-      <select class="search-type" value={selectedValue} onChange={handleChange}>
-        <option value='0'>Search Type</option>
+      <select className="search-type" value={selectedValue} onChange={handleChange}>
+        <option value='0'>Search By</option>
         <option value='zip_code'>Zipcode</option>
         <option value='address'>Address</option>
         <option value='property_type'>Property Type</option>
