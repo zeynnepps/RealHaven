@@ -3,7 +3,7 @@ from playwright.async_api import async_playwright
 import json
 import pandas as pd
 
-browser_url = 'wss://brd-customer-hl_41345ae3-zone-scraping_browser1:fabvcm73dd0u@brd.superproxy.io:9222'
+browser_url = 'your-key-here'
 
 async def main():
     async with async_playwright() as pw:

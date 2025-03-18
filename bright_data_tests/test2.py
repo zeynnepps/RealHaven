@@ -7,10 +7,10 @@ from openai import OpenAI
 from playwright.async_api import async_playwright
 
 # 🔹 Bright Data Scraping Browser WebSocket
-SBR_WS_CDP = 'wss://brd-customer-hl_41345ae3-zone-scraping_browser1:fabvcm73dd0u@brd.superproxy.io:9222'
+SBR_WS_CDP = 'your-key-here'
 ZILLOW_URL = "https://www.zillow.com"
-client = OpenAI(api_key="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")
-LOCATION = "San Jose, CA"  # 🔹 Updated to scrape San Jose, CA
+client = OpenAI(api_key="your-openai-apikey-here")
+LOCATION = "San Jose, CA" 
 
 def extract_property_details(input):
     print("Extracting property details...")
@@ -109,7 +109,6 @@ async def scrape_zillow(playwright):
 
         print(f"✅ Scraped {len(results)} properties. Data saved to zillow_listings.json")
 
-            # 🔹 Navigate to property page
             # await page.goto(link)
             # await page.wait_for_load_state("load")
             # await asyncio.sleep(3)
