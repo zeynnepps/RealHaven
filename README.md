@@ -25,29 +25,12 @@ cd real-estate-project
 
 ### 2️⃣ **Backend Setup (Django)**
 ```bash
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # (For Mac/Linux)
-venv\Scripts\activate  # (For Windows)
 
-# Install dependencies
-pip install -r backend/requirements.txt
-
-# Apply migrations & run server
-python manage.py migrate
-python manage.py runserver
 ```
 
 ### 3️⃣ **Frontend Setup (React)**
 ```bash
-# Navigate to frontend folder
-cd frontend
 
-# Install dependencies
-yarn install  # or npm install
-
-# Start the development server
-yarn start  # or npm start
 ```
 
 ## 🛠️ Technologies Used
