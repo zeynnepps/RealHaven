@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PropertyCard from "../components/PropertyCard";
+import Chatbot from "../components/Chatbot";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -154,6 +155,7 @@ const Home = () => {
           </div>
         </div>
       )}
+      <Chatbot />
     </div>
   );
 };

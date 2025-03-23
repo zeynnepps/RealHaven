@@ -1,9 +1,52 @@
 from django.shortcuts import render
-
 # Create your views here.
 from rest_framework import generics
 from .models import Property
 from .serializers import PropertySerializer
+from django.shortcuts import render
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+import json
+import logging
+from .real_estate_chatbot import extract_query_details, search_properties
+
+
+logger = logging.getLogger(__name__)
+
+@csrf_exempt
+def chatbot_api(request):
+    if request.method == "POST":
+        try:
+            data = json.loads(request.body)
+            user_query = data.get("query", "").strip()
+
+            if not user_query:
+                return JsonResponse({"error": "No query provided"}, status=400)
+
+            filters = extract_query_details(user_query)
+            response = search_properties(filters)
+
+            if not response:
+                logger.warning(f"No properties found for query: {user_query}")
+                return JsonResponse({"message": "No properties match your search. Try refining your query."}, status=200)
+
+            return JsonResponse(response, status=200)
+
+        except json.JSONDecodeError:
+            logger.error("Invalid JSON received in chatbot API.")
+            return JsonResponse({"error": "Invalid JSON"}, status=400)
+
+        except Exception as e:
+            logger.exception(f"Unexpected error in chatbot API: {e}")
+            return JsonResponse({"error": "Internal server error"}, status=500)
+
+    elif request.method == "GET":
+        # Example test query
+        example_query = "Show me houses with 5 bedrooms in San Jose under $3,000,000."
+        filters = extract_query_details(example_query)
+        return JsonResponse({"filters": filters}, status=200)
+
+    return JsonResponse({"error": "Only POST requests allowed"}, status=405)
 
 class PropertyListView(generics.ListAPIView):
     queryset = Property.objects.all()
@@ -30,7 +73,7 @@ class PropertySearchView(generics.ListAPIView):
         if street_address:
             queryset = queryset.filter(address__icontains=street_address)  # Case-insensitive address search
         if zip_code:
-            queryset = queryset.filter(zip_code=zip_code)  # Exact match for zip code
+            queryset = queryset.filter(zip_code=str(zip_code))  # Exact match for zip code
         if property_type:
             queryset = queryset.filter(property_type__iexact=property_type)  # Case-insensitive exact match for property type
 
