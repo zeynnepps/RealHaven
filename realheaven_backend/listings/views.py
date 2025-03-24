@@ -24,6 +24,11 @@ def chatbot_api(request):
                 return JsonResponse({"error": "No query provided"}, status=400)
 
             filters = extract_query_details(user_query)
+
+            # If the response is a chatbot message (not property search)
+            if "message" in filters:
+                return JsonResponse(filters, status=200)
+
             response = search_properties(filters)
 
             if not response:

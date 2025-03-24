@@ -75,7 +75,14 @@ def remove_money_ents(doc):
 
 # Load trained models
 nlp = spacy.load("/Users/skondra/Documents/RealHaven/realheaven_backend/RealHaven_Models/real_estate_nlp_model")  # Load NLP model
-price_model = joblib.load("/Users/skondra/Documents/RealHaven/realheaven_backend/RealHaven_Models/final_xgboost_property_price_predictor.pkl")  # Load ML model
+
+from xgboost import XGBRegressor
+
+price_model = XGBRegressor()
+price_model.load_model("/Users/skondra/Documents/RealHaven/realheaven_backend/RealHaven_Models/final_xgboost_model.xgb")  # Load XGBoost model
+
+
+#price_model = joblib.load("/Users/skondra/Documents/RealHaven/realheaven_backend/RealHaven_Models/final_xgboost_property_price_predictor.pkl")  # Load ML model
 feature_columns = joblib.load("/Users/skondra/Documents/RealHaven/realheaven_backend/RealHaven_Models/final_xgboost_features.pkl")  # Load feature names
 
 if "remove_money_ents" not in nlp.pipe_names:
@@ -97,6 +104,14 @@ def extract_query_details(user_query):
     doc = nlp(user_query)
     filters = {}
 
+    # Real estate-specific keywords
+    real_estate_keywords = ["apartment", "house", "bedrooms", "bathrooms", "price", "rent", "buy", "sell", "property", "listing"]
+
+    # If no real estate-related words are found, return a default chatbot response
+    if not any(word in user_query.lower() for word in real_estate_keywords):
+        return {"message": "Hello! How can I assist you with real estate today?"}
+
+   
     for ent in doc.ents:
         if ent.label_ == "CITY":
             filters["city"] = ent.text
@@ -110,8 +125,6 @@ def extract_query_details(user_query):
     return filters
     
 # Predict price using ML model
-import numpy as np
-
 def predict_price(filters):
     # Ensure all required numerical features exist
     sample_features = {
