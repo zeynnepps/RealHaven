@@ -74,23 +74,23 @@ def remove_money_ents(doc):
     return doc
 
 # Load trained models
-nlp = spacy.load("/Users/skondra/Documents/RealHaven/realheaven_backend/RealHaven_Models/real_estate_nlp_model")  # Load NLP model
+nlp = spacy.load("/Users/zeynepsalihoglu/Downloads/RealHaven/realheaven_backend/RealHaven_Models/real_estate_nlp_model")  # Load NLP model
 
 from xgboost import XGBRegressor
 
 price_model = XGBRegressor()
-price_model.load_model("/Users/skondra/Documents/RealHaven/realheaven_backend/RealHaven_Models/final_xgboost_model.xgb")  # Load XGBoost model
+price_model.load_model("/Users/zeynepsalihoglu/Downloads/RealHaven/realheaven_backend/RealHaven_Models/final_xgboost_model.xgb")  # Load XGBoost model
 
 
 #price_model = joblib.load("/Users/skondra/Documents/RealHaven/realheaven_backend/RealHaven_Models/final_xgboost_property_price_predictor.pkl")  # Load ML model
-feature_columns = joblib.load("/Users/skondra/Documents/RealHaven/realheaven_backend/RealHaven_Models/final_xgboost_features.pkl")  # Load feature names
+feature_columns = joblib.load("/Users/zeynepsalihoglu/Downloads/RealHaven/realheaven_backend/RealHaven_Models/final_xgboost_features.pkl")  # Load feature names
 
 if "remove_money_ents" not in nlp.pipe_names:
     nlp.add_pipe("remove_money_ents", last=True)
  
 #print(os.path.abspath("realheaven_backend/RealHaven_Models/real_estate_nlp_model"))
 # Load real estate data
-file_path = "/Users/skondra/Documents/RealHaven/real_estate_data_with_images_v1.csv"
+file_path = "/Users/zeynepsalihoglu/Downloads/RealHaven/real_estate_data_with_images_v1.csv"
 
 if not os.path.exists(file_path):
     raise FileNotFoundError(f"Dataset file not found: {file_path}")
