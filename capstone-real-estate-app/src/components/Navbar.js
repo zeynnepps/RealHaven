@@ -2,16 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  return (
-    <nav style={styles.nav}>
-      <Link to="/" style={styles.link}>
-        Home
-      </Link>
-      <Link to="/chatbot" style={styles.link}>
-        Chatbot
-      </Link>
-    </nav>
-  );
+  // return (
+  //   // <nav style={styles.nav}>
+  //   //   <Link to="/" style={styles.link}>
+  //   //     Home
+  //   //   </Link>
+  //   //   <Link to="/chatbot" style={styles.link}>
+  //   //     Chatbot
+  //   //   </Link>
+  //   // </nav>
+  // );
 };
 
 
