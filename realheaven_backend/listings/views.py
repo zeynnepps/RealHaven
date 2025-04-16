@@ -1,14 +1,12 @@
 from django.shortcuts import render
-# Create your views here.
 from rest_framework import generics
 from .models import Property
 from .serializers import PropertySerializer
-from django.shortcuts import render
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 import json
 import logging
-from .real_estate_chatbot import extract_query_details, search_properties
+from .real_estate_chatbot import extract_query_details, search_properties, format_chatbot_response
 
 
 logger = logging.getLogger(__name__)
@@ -28,14 +26,17 @@ def chatbot_api(request):
             # If the response is a chatbot message (not property search)
             if "message" in filters:
                 return JsonResponse(filters, status=200)
-
+           
             response = search_properties(filters)
-
+            
             if not response:
                 logger.warning(f"No properties found for query: {user_query}")
                 return JsonResponse({"message": "No properties match your search. Try refining your query."}, status=200)
-
-            return JsonResponse(response, status=200)
+            
+            
+            formatted_response = format_chatbot_response(filters, response.get("properties", []), response.get("message"))
+             
+            return JsonResponse(formatted_response, status=200)
 
         except json.JSONDecodeError:
             logger.error("Invalid JSON received in chatbot API.")

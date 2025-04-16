@@ -6,7 +6,7 @@ class Command(BaseCommand):
     help = "Import property data from CSV"
 
     def handle(self, *args, **kwargs):
-        csv_file_path = "/Users/skondra/Documents/RealHaven/real_estate_data_with_images_v1.csv"
+        csv_file_path = "/Users/rgvmingudiya/Documents/RealHaven/real_estate_data_with_images_v1.csv"
 
         with open(csv_file_path, newline="", encoding="utf-8") as csvfile:
             reader = csv.DictReader(csvfile)

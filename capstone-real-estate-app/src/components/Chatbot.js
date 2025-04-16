@@ -7,12 +7,24 @@ const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
-  const img_path_prefix ="http://127.0.0.1:8000/media/";
+  const img_path_prefix = "http://127.0.0.1:8000/media/";
+
+  const getEmojiForQuery = (text) => {
+    const lower = text.toLowerCase();
+    if (lower.includes("buy") || lower.includes("purchase")) return "🏠🛍️";
+    if (lower.includes("rent") || lower.includes("lease")) return "🏡💸";
+    if (lower.includes("bedroom") || lower.includes("bed")) return "🛏️";
+    if (lower.includes("bathroom") || lower.includes("bath")) return "🛁";
+    if (lower.includes("price") || lower.includes("budget") || lower.includes("$")) return "💰";
+    if (lower.includes("san jose")) return "📍San Jose";
+    return "🤖";
+  };
+
   const formatResponse = (data) => {
-    if (data.error) return `Error: ${data.error}`;
-    if (data.message) return data.message;
+    if (data.error) return `❌ ${data.error}`;
+    if (data.message) return `💬 ${data.message}`;
     if (Array.isArray(data.properties)) {
-      return data.properties.map(property => 
+      return data.properties.map(property =>
         `🏠 Address: ${property["Street Address"]}\n` +
         `📍 City: ${property.City}\n` +
         `💰 Price: $${property.Price.toLocaleString()}\n` +
@@ -21,39 +33,45 @@ const Chatbot = () => {
         `📏 Square Footage: ${property["Square Footage"]} sqft\n` +
         `🏡 Type: ${property["Property Type"]}\n` +
         `📸 Image: ${property.Image_Path}\n\n`
-      ).join('\n') || 'No properties found.';
+      ).join('\n') || '❗ No properties found.';
     }
-    return 'No results found.';
+    return '🤷‍♂️ No results found.';
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!query.trim()) return;
-    
+
     setIsLoading(true);
-    
-    // Add user message to chat
-    setMessages(prev => [...prev, { sender: 'user', text: query }]);
     const currentQuery = query;
+
+    // Add user message with emoji
+    setMessages(prev => [
+      ...prev,
+      { sender: 'user', text: currentQuery, emoji: getEmojiForQuery(currentQuery) }
+    ]);
     setQuery("");
 
     try {
       const res = await axios.post("http://127.0.0.1:8000/api/chatbot/", {
         query: currentQuery,
       });
+
       console.log("Backend Response:", res.data);
-      
-      // Add bot response to chat
-      setMessages(prev => [...prev, { 
-        sender: 'bot', 
-        text: formatResponse(res.data),
-        data: res.data // Store raw data for potential special rendering
-      }]);
+
+      setMessages(prev => [
+        ...prev,
+        {
+          sender: 'bot',
+          text: formatResponse(res.data),
+          data: res.data
+        }
+      ]);
     } catch (error) {
       console.error("Error:", error);
-      setMessages(prev => [...prev, { 
-        sender: 'bot', 
-        text: "Error: An error occurred. Please try again."
+      setMessages(prev => [...prev, {
+        sender: 'bot',
+        text: "❌ An error occurred. Please try again."
       }]);
     } finally {
       setIsLoading(false);
@@ -86,16 +104,16 @@ const Chatbot = () => {
       {isOpen && (
         <div style={styles.chatbotWindow}>
           <h3>RealHeaven AI Assistant</h3>
-          
+
           <div style={styles.chatArea}>
             {messages.length === 0 ? (
               <div style={styles.welcomeMessage}>
-                How can I help you with real estate today?
+                👋 How can I help you with real estate today?
               </div>
             ) : (
               messages.map((msg, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   style={{
                     ...styles.message,
                     ...(msg.sender === 'user' ? styles.userMessage : styles.botMessage)
@@ -103,11 +121,14 @@ const Chatbot = () => {
                 >
                   {msg.sender === 'bot' && msg.data?.properties ? (
                     <div>
-                      <h4>Matching Properties:</h4>
+                      <h4>🏡 Matching Properties:</h4>
                       {msg.data.properties.map(renderPropertyCard)}
                     </div>
                   ) : (
-                    <div style={{ whiteSpace: 'pre-line' }}>{msg.text}</div>
+                    <div style={{ whiteSpace: 'pre-line' }}>
+                      {msg.emoji && <span style={{ marginRight: "5px" }}>{msg.emoji}</span>}
+                      {msg.text}
+                    </div>
                   )}
                 </div>
               ))
@@ -118,16 +139,16 @@ const Chatbot = () => {
             <textarea
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Enter your query (e.g., Show me houses with 3 bedrooms in San Jose under $2,000,000.)"
+              placeholder="Ex: Show me 3-bed homes in San Jose under $2M"
               style={styles.textarea}
               disabled={isLoading}
             />
-            <button 
-              type="submit" 
-              style={styles.button} 
+            <button
+              type="submit"
+              style={styles.button}
               disabled={isLoading || !query.trim()}
             >
-              {isLoading ? "Loading..." : "Send"}
+              {isLoading ? "Thinking..." : "Send"}
             </button>
           </form>
         </div>
@@ -153,8 +174,8 @@ const styles = {
     cursor: "pointer",
   },
   chatbotWindow: {
-    width: "350px",
-    height: "500px",
+    width: "370px",
+    height: "530px",
     display: "flex",
     flexDirection: "column",
     padding: "15px",
@@ -177,19 +198,19 @@ const styles = {
     padding: "20px",
   },
   message: {
-    maxWidth: "80%",
+    maxWidth: "85%",
     padding: "10px",
     marginBottom: "10px",
     borderRadius: "10px",
     wordWrap: "break-word",
   },
   userMessage: {
-    backgroundColor: "#e3f2fd",
+    backgroundColor: "#d1ecf1",
     marginLeft: "auto",
     borderTopRightRadius: "0",
   },
   botMessage: {
-    backgroundColor: "#f1f1f1",
+    backgroundColor: "#f8f9fa",
     marginRight: "auto",
     borderTopLeftRadius: "0",
   },

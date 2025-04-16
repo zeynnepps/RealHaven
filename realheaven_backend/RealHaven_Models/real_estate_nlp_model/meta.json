@@ -2,13 +2,13 @@
   "lang":"en",
   "name":"pipeline",
   "version":"0.0.0",
-  "spacy_version":">=3.8.4,<3.9.0",
+  "spacy_version":">=3.8.5,<3.9.0",
   "description":"",
   "author":"",
   "email":"",
   "url":"",
   "license":"",
-  "spacy_git_version":"85cc763",
+  "spacy_git_version":"d0c705c",
   "vectors":{
     "width":0,
     "vectors":0,
@@ -17,21 +17,72 @@
     "mode":"default"
   },
   "labels":{
+    "tok2vec":[
+
+    ],
     "ner":[
       "BATHROOM",
+      "BATHROOMS",
       "BEDROOM",
-      "PRICE"
+      "BEDROOMS",
+      "CITY",
+      "PRICE",
+      "PROPERTY_TYPE"
     ]
   },
   "pipeline":[
-    "ner",
-    "remove_money_ents"
+    "tok2vec",
+    "ner"
   ],
   "components":[
-    "ner",
-    "remove_money_ents"
+    "tok2vec",
+    "ner"
   ],
   "disabled":[
 
-  ]
+  ],
+  "performance":{
+    "ents_f":1.0,
+    "ents_p":1.0,
+    "ents_r":1.0,
+    "ents_per_type":{
+      "BEDROOM":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BATHROOM":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CITY":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PRICE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BEDROOMS":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PROPERTY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BATHROOMS":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      }
+    },
+    "tok2vec_loss":0.0000030168,
+    "ner_loss":0.0000035034
+  }
 }
