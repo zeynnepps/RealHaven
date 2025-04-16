@@ -77,10 +77,37 @@ class PropertySearchView(generics.ListAPIView):
 
         # Filter based on the provided parameters
         if street_address:
-            queryset = queryset.filter(address__icontains=street_address)  # Case-insensitive address search
+            queryset = queryset.filter(street_address__icontains=street_address)  # Case-insensitive address search
         if zip_code:
             queryset = queryset.filter(zip_code=str(zip_code))  # Exact match for zip code
         if property_type:
             queryset = queryset.filter(property_type__iexact=property_type)  # Case-insensitive exact match for property type
 
         return queryset
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from .models import Customer
+from .serializers import CustomerSerializer
+from django.contrib.auth.hashers import check_password
+
+class CustomerSignupView(APIView):
+    def post(self, request):
+        serializer = CustomerSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"message": "Signup successful"}, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+class CustomerLoginView(APIView):
+    def post(self, request):
+        email = request.data.get('email')
+        password = request.data.get('password')
+        try:
+            customer = Customer.objects.get(email=email)
+            if check_password(password, customer.password):
+                return Response({"message": "Login successful"}, status=status.HTTP_200_OK)
+            else:
+                return Response({"error": "Invalid password"}, status=status.HTTP_401_UNAUTHORIZED)
+        except Customer.DoesNotExist:
+            return Response({"error": "Customer not found"}, status=status.HTTP_404_NOT_FOUND)
