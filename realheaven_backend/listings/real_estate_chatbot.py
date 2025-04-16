@@ -29,11 +29,12 @@ if "remove_money_ents" not in nlp.pipe_names:
 def extract_query_details(user_query):
     try:
         doc = nlp(user_query)
+        print("🧠 Extracted Entities:", [(ent.text, ent.label_) for ent in doc.ents])
         filters = {}
 
         # Real estate-specific keywords
         real_estate_keywords = ["apartment", "house", "bedrooms", "bathrooms", "price", "rent", "buy", "sell", "property", "listing"]
-        real_estate_keywords += ["villa", "townhouse", "duplex", "condo", "downtown", "neighborhood", "valley", "glen", "district"]
+        real_estate_keywords += ["villa", "townhouse", "duplex", "condo", "downtown", "neighborhood", "valley", "glen", "district", "flat", "bungalow", "luxury"]
 
         
         # If no real estate-related words are found, return a default chatbot response
@@ -43,10 +44,16 @@ def extract_query_details(user_query):
         for ent in doc.ents:
             if ent.label_ == "CITY":
                 filters["city"] = ent.text
-            elif ent.label_ == "BEDROOMS" or ent.label_ == "BEDROOM":
-                filters["bedrooms"] = int(ent.text)
-            elif ent.label_ == "BATHROOMS" or ent.label_ == "BATHROOM":
-                filters["bathrooms"] = int(ent.text)
+            elif ent.label_ == "BEDROOM":
+                print("🛏️ BEDROOM RAW TEXT:", ent.text)
+                match = re.search(r'\d+', ent.text)
+                if match:
+                    filters["bedrooms"] = int(match.group())
+            elif ent.label_ == "BATHROOM":
+                print("🛁 BATHROOM RAW TEXT:", ent.text)
+                match = re.search(r'\d+', ent.text)
+                if match:
+                    filters["bathrooms"] = int(match.group())
             elif ent.label_ == "PRICE":
                 try:
                     filters["max_price"] = int(ent.text.replace("$", "").replace(",", ""))
@@ -54,6 +61,7 @@ def extract_query_details(user_query):
                     pass
             elif ent.label_ == "PROPERTY_TYPE":
                 filters["property_type"] = ent.text
+
 
         if "max_price" not in filters:
             price_match = re.search(r'\$?[\d,.]+[KkMm]?', user_query)
@@ -66,23 +74,25 @@ def extract_query_details(user_query):
                     filters["max_price"] = int(float(numeric_price.replace("m", "")) * 1000000)
                 else:
                     filters["max_price"] = int(numeric_price)
-
+        """
         if "city" not in filters:
             known_places = df["City"].dropna().unique().tolist()
             user_text = user_query.lower()
             best_match, score = process.extractOne(user_text, known_places, scorer=fuzz.token_sort_ratio)
             if score > 70:
                 filters["city"] = best_match
-
-        
+        """
+        filters["city"] = "San Jose"
         
 
         # Fallback if nothing useful was extracted
-        if not filters:
-            print("⚠️ No entities extracted from:", user_query)
-            return {"message": "🤔 I'm having trouble understanding your query. Could you rephrase it or add more real estate details like city or budget?"}
+        if not filters or all(v is None for v in filters.values()):
+            return {
+                "message": "🤔 I'm having trouble understanding your query. Try something like: '2-bedroom apartment in San Jose under $1M'"
+        }
 
-        print("Extracted filters", filters)
+        print(" Final Parsed Filters:", filters)
+        #print("Extracted filters", filters)
         return filters
         
     except Exception as e:
@@ -162,6 +172,8 @@ def search_properties(filters):
             "filters_used": original_filters,
             "properties": results.head(5).to_dict(orient="records")
         }
+    else:
+         print("🚫 No exact matches found with current filters")
 
     # --- Relax filters ---
     relaxed_results = df.copy()
@@ -210,7 +222,7 @@ def search_properties(filters):
     return {
         "message": "Sorry, no matching properties were found. Try modifying your search."
     }
-"""
+
     # Recommend price if no properties match
     if "city" in filters:
             sample_features = [
@@ -222,10 +234,10 @@ def search_properties(filters):
             return {
                 "message": f"No exact match. Predicted price: ${predicted_price:.2f}"}
 """   
-"""
+
 
 def format_chatbot_response(filters, properties, message=None):
-    emoji = "🏡" if properties else "❗"
+    emoji = "🏡" if properties else "😕"
     if not message:
         message = (
             f"{emoji} Here are some properties matching your search."

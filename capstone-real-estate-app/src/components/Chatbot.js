@@ -20,24 +20,6 @@ const Chatbot = () => {
     return "🤖";
   };
 
-  const formatResponse = (data) => {
-    if (data.error) return `❌ ${data.error}`;
-    if (data.message) return `💬 ${data.message}`;
-    if (Array.isArray(data.properties)) {
-      return data.properties.map(property =>
-        `🏠 Address: ${property["Street Address"]}\n` +
-        `📍 City: ${property.City}\n` +
-        `💰 Price: $${property.Price.toLocaleString()}\n` +
-        `🛏️ Bedrooms: ${property.Bedrooms}\n` +
-        `🚿 Bathrooms: ${property.Bathrooms}\n` +
-        `📏 Square Footage: ${property["Square Footage"]} sqft\n` +
-        `🏡 Type: ${property["Property Type"]}\n` +
-        `📸 Image: ${property.Image_Path}\n\n`
-      ).join('\n') || '❗ No properties found.';
-    }
-    return '🤷‍♂️ No results found.';
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!query.trim()) return;
@@ -45,10 +27,14 @@ const Chatbot = () => {
     setIsLoading(true);
     const currentQuery = query;
 
-    // Add user message with emoji
-    setMessages(prev => [
+    // Add user message
+    setMessages((prev) => [
       ...prev,
-      { sender: 'user', text: currentQuery, emoji: getEmojiForQuery(currentQuery) }
+      {
+        sender: "user",
+        text: currentQuery,
+        emoji: getEmojiForQuery(currentQuery),
+      },
     ]);
     setQuery("");
 
@@ -57,22 +43,23 @@ const Chatbot = () => {
         query: currentQuery,
       });
 
-      console.log("Backend Response:", res.data);
+      console.log("🧠 Backend Response:", res.data);
 
-      setMessages(prev => [
+      setMessages((prev) => [
         ...prev,
         {
-          sender: 'bot',
-          text: formatResponse(res.data),
-          data: res.data
-        }
+          sender: "bot",
+          message: res.data.message || null,
+          recommendations: res.data.recommendations || [],
+          filters: res.data.query_interpretation || {},
+        },
       ]);
     } catch (error) {
-      console.error("Error:", error);
-      setMessages(prev => [...prev, {
-        sender: 'bot',
-        text: "❌ An error occurred. Please try again."
-      }]);
+      console.error("❌ Error in API call:", error);
+      setMessages((prev) => [
+        ...prev,
+        { sender: "bot", text: "❌ An error occurred. Please try again." },
+      ]);
     } finally {
       setIsLoading(false);
     }
@@ -116,17 +103,30 @@ const Chatbot = () => {
                   key={index}
                   style={{
                     ...styles.message,
-                    ...(msg.sender === 'user' ? styles.userMessage : styles.botMessage)
+                    ...(msg.sender === "user"
+                      ? styles.userMessage
+                      : styles.botMessage),
                   }}
                 >
-                  {msg.sender === 'bot' && msg.data?.properties ? (
+                  {msg.sender === "bot" ? (
                     <div>
-                      <h4>🏡 Matching Properties:</h4>
-                      {msg.data.properties.map(renderPropertyCard)}
+                      {msg.message && (
+                        <div style={{ whiteSpace: "pre-line", marginBottom: "10px" }}>
+                          💬 {msg.message}
+                        </div>
+                      )}
+                      {msg.recommendations && msg.recommendations.length > 0 ? (
+                        <div>
+                          <h4>🏡 Matching Properties:</h4>
+                          {msg.recommendations.map(renderPropertyCard)}
+                        </div>
+                      ) : null}
                     </div>
                   ) : (
-                    <div style={{ whiteSpace: 'pre-line' }}>
-                      {msg.emoji && <span style={{ marginRight: "5px" }}>{msg.emoji}</span>}
+                    <div style={{ whiteSpace: "pre-line" }}>
+                      {msg.emoji && (
+                        <span style={{ marginRight: "5px" }}>{msg.emoji}</span>
+                      )}
                       {msg.text}
                     </div>
                   )}
