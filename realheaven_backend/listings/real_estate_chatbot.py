@@ -10,11 +10,11 @@ from spacy.language import Language
 from xgboost import XGBRegressor
 
 # Load real estate data
-file_path = "/Users/rgvmingudiya/Documents/RealHaven/real_estate_data_with_images_v1.csv"
+file_path = "/Users/akhilkumar/Desktop/MSCS-SEM4/capstone course/RealHaven/real_estate_data_with_images_v1.csv"
 df = pd.read_csv(file_path)
 
 # Load trained models
-nlp = spacy.load("/Users/rgvmingudiya/Documents/RealHaven/realheaven_backend/RealHaven_Models/real_estate_nlp_model")  # Load NLP model
+nlp = spacy.load("/Users/akhilkumar/Desktop/MSCS-SEM4/capstone course/RealHaven/realheaven_backend/RealHaven_Models/real_estate_nlp_model")  # Load NLP model
 
 @Language.component("remove_money_ents")
 def remove_money_ents(doc):
@@ -138,7 +138,6 @@ price_model.load_model("/Users/rgvmingudiya/Documents/RealHaven/realheaven_backe
 feature_columns = joblib.load("/Users/rgvmingudiya/Documents/RealHaven/realheaven_backend/RealHaven_Models/final_xgboost_features.pkl")  # Load feature names
 
 #print(os.path.abspath("realheaven_backend/RealHaven_Models/real_estate_nlp_model"))
-
 
 if not os.path.exists(file_path):
     raise FileNotFoundError(f"Dataset file not found: {file_path}")
