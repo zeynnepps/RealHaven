@@ -21,7 +21,6 @@
 
     ],
     "ner":[
-      "BATHROOM",
       "BEDROOM",
       "CITY",
       "PRICE",
@@ -44,17 +43,7 @@
     "ents_p":1.0,
     "ents_r":1.0,
     "ents_per_type":{
-      "BEDROOM":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
       "PROPERTY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CITY":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -64,13 +53,18 @@
         "r":1.0,
         "f":1.0
       },
-      "BATHROOM":{
+      "CITY":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BEDROOM":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       }
     },
-    "tok2vec_loss":17.0840966624,
-    "ner_loss":3.480329752
+    "tok2vec_loss":0.0000004482,
+    "ner_loss":0.000000505
   }
 }

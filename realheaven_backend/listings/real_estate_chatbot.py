@@ -27,20 +27,25 @@ if "remove_money_ents" not in nlp.pipe_names:
 
 # Extract search filters from user query
 def extract_query_details(user_query):
+   
+    # Handle small talk & greetings
+    greetings = ["hi", "hello", "hey", "hola", "merhaba", "namaste", "good morning", "good evening", "how are you", "what's up", "howdy"]
+    if any(phrase in user_query.lower() for phrase in greetings):
+        return {"message": "👋 Hello! I'm your RealHeaven assistant. Ask me about homes, prices, or neighborhoods in San Jose!"}
+
     try:
         doc = nlp(user_query)
         print("🧠 Extracted Entities:", [(ent.text, ent.label_) for ent in doc.ents])
         filters = {}
 
         # Real estate-specific keywords
-        real_estate_keywords = ["apartment", "house", "bedrooms", "bathrooms", "price", "rent", "buy", "sell", "property", "listing"]
-        real_estate_keywords += ["villa", "townhouse", "duplex", "condo", "downtown", "neighborhood", "valley", "glen", "district", "flat", "bungalow", "luxury"]
-
+        real_estate_keywords = ["apartment", "house", "bedroom", "bathroom", "price", "rent", "buy", "sell", "property", "listing",
+                                "villa", "townhouse", "duplex", "condo", "downtown", "neighborhood", "valley", "glen", "district", "flat", "bungalow", "luxury"]
         
-        # If no real estate-related words are found, return a default chatbot response
         if not any(word in user_query.lower() for word in real_estate_keywords):
             return {"message": "Hello! How can I assist you with real estate today?"}
 
+        # --- Extract from NER ---
         for ent in doc.ents:
             if ent.label_ == "CITY":
                 filters["city"] = ent.text
@@ -56,15 +61,43 @@ def extract_query_details(user_query):
                     filters["bathrooms"] = int(match.group())
             elif ent.label_ == "PRICE":
                 try:
-                    filters["max_price"] = int(ent.text.replace("$", "").replace(",", ""))
+                    filters["max_price"] = int(ent.text.replace("$", "").replace(",", "").replace("M", "000000").replace("K", "000"))
                 except:
                     pass
             elif ent.label_ == "PROPERTY_TYPE":
-                filters["property_type"] = ent.text
+                filters["property_type"] = ent.text.lower().rstrip("s")  # Normalize plural types
 
+        # --- Fallback for BHK like "2BHK", "3-BHK", etc. ---
+        if "bedrooms" not in filters:
+            bhk_match = re.search(r'(\d+)[-\s]?BHK', user_query.upper())
+            if bhk_match:
+                filters["bedrooms"] = int(bhk_match.group(1))
+                print(f"📦 Fallback BHK extracted: {filters['bedrooms']}")
 
+        # --- Fallback for price using regex ---
+        # 💡 Improved fallback price detection that avoids small unrelated digits
         if "max_price" not in filters:
-            price_match = re.search(r'\$?[\d,.]+[KkMm]?', user_query)
+            # Try to extract numbers like $850000, 1.5M, 2M, 3000000 etc.
+            price_match = re.findall(r'\$?\d{2,3}(?:,\d{3})+(?:\.\d+)?[KkMm]?|\d{5,}', user_query)
+
+            if price_match:
+                best_price = price_match[-1]  # Choose the last plausible price-like value
+                print(f"💰 Raw Fallback Price Found: {best_price}")
+
+                best_price = best_price.lower().replace("$", "").replace(",", "")
+                try:
+                    if "k" in best_price:
+                        filters["max_price"] = int(float(best_price.replace("k", "")) * 1000)
+                    elif "m" in best_price:
+                        filters["max_price"] = int(float(best_price.replace("m", "")) * 1000000)
+                    else:
+                        filters["max_price"] = int(float(best_price))
+                except Exception as e:
+                    print("⚠️ Failed to parse fallback price:", e)
+
+        """
+        if "max_price" not in filters:
+            price_match = re.search(r'\$?[\d,.]+[KkMm]?|\d{5,}', user_query)
             if price_match:
                 price_text = price_match.group()
                 numeric_price = price_text.lower().replace("$", "").replace(",", "")
@@ -75,30 +108,26 @@ def extract_query_details(user_query):
                 else:
                     filters["max_price"] = int(numeric_price)
         """
-        if "city" not in filters:
-            known_places = df["City"].dropna().unique().tolist()
-            user_text = user_query.lower()
-            best_match, score = process.extractOne(user_text, known_places, scorer=fuzz.token_sort_ratio)
-            if score > 70:
-                filters["city"] = best_match
-        """
+        # --- Default fallback city ---
         filters["city"] = "San Jose"
-        
 
-        # Fallback if nothing useful was extracted
+        # --- Normalize property type to singular ---
+        if "property_type" in filters:
+            filters["property_type"] = filters["property_type"].lower().rstrip("s")
+
+        # Fallback message
         if not filters or all(v is None for v in filters.values()):
             return {
                 "message": "🤔 I'm having trouble understanding your query. Try something like: '2-bedroom apartment in San Jose under $1M'"
-        }
+            }
 
-        print(" Final Parsed Filters:", filters)
-        #print("Extracted filters", filters)
+        print("✅ Final Parsed Filters:", filters)
         return filters
-        
+
     except Exception as e:
         print(f"[NER Error] Failed to extract query details: {e}")
         return {"message": "Sorry, I couldn't understand your query. Could you try rephrasing it?"}
-    
+
 ##############################
 
 """
@@ -199,7 +228,7 @@ def search_properties(filters):
         relaxed_results = relaxed_results[relaxed_results["Bathrooms"] >= max(1, filters["bathrooms"] - 1)]
 
     if "max_price" in filters:
-        relaxed_results = relaxed_results[relaxed_results["Price"] <= filters["max_price"] * 1.1]
+        relaxed_results = relaxed_results[relaxed_results["Price"] <= filters["max_price"] * 1.05]
 
     if not relaxed_results.empty:
         return {
