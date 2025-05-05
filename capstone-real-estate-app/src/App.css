@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.diagram-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.diagram-container img {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.visualizations-page {
+  background: linear-gradient(to bottom right, #e0f7fa, #f1f8e9);
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.viz-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}

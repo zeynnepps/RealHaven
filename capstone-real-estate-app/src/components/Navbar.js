@@ -14,7 +14,6 @@ const Navbar = () => {
   // );
 };
 
-
 const styles = {
   nav: {
     display: "flex",

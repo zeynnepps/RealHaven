@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import PropertyDetails from "./pages/PropertyDetails";
 import Chatbot from "./components/Chatbot";  
+import Visualizations from "./pages/Visualizations";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/property/:id" element={<PropertyDetails />} />
         <Route path="/chatbot" element={<Chatbot />} />
+        <Route path="/visualizations" element={<Visualizations />} /> 
       </Routes>
     </Router>
   );

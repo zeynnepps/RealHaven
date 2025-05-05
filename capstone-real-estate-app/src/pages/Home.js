@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import PropertyCard from "../components/PropertyCard";
 import Chatbot from "../components/Chatbot";
@@ -57,6 +58,9 @@ const Home = () => {
         <button className="buy-button">Buy</button>
         <button className="rent-button">Rent</button>
         <button className="sell-button">Sell</button>
+        <Link to="/visualizations">
+          <button className="visualizations-button">Visualizations</button>
+        </Link>
       </div>
 
       <h1 className="home-title">Welcome to the Real Haven
