@@ -71,9 +71,23 @@ const Home = () => {
           <button className="visualizations-button">Visualizations</button>
         </Link>
       </div>
-
+      
       <h1 className="home-title">Welcome to the Real Haven
      </h1>
+
+      {filteredProperties.length > 0 && (
+      <div className="home-return-button">
+        <button onClick={() => {
+        setfilteredProperties([]);
+        setSearchTerm("");
+        setSelectedValue("0");
+      }}>
+        🏠 Back to Home
+      </button>
+
+      </div>
+    )}
+      
      <img src="images/logo.jpeg" className="logo-style"></img>
       <button className="login-button" onClick={openLoginForm}>
         Login

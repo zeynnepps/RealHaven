@@ -367,3 +367,18 @@
 .visualizations-button:hover {
   background-color: #e9ecef;
 }
+
+.home-return-button {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.home-return-button button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
