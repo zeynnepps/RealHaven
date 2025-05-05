@@ -52,12 +52,21 @@ const Home = () => {
   }
 
   return (
-    <div className="home-container">
+    // <div className="home-container">
+    <div
+    className="home-container"
+    style={{
+      minHeight: "100vh",
+      backgroundImage: `url(${process.env.PUBLIC_URL}/images/la.jpg)`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+    }}
+  >
       {/* ADDED Buy and Rent Buttons */}
       <div className="top-buttons">
         <button className="buy-button">Buy</button>
         <button className="rent-button">Rent</button>
-        <button className="sell-button">Sell</button>
         <Link to="/visualizations">
           <button className="visualizations-button">Visualizations</button>
         </Link>

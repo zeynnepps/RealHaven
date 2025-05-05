@@ -152,35 +152,36 @@
   border-radius: 4px;
   z-index: 1000; /* Ensure it's above other elements */
 }
-.search-type{
-  position: relative;
+
+.search-type {
   padding: 8px 16px;
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   border: none;
   color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  height: 30px;
-  cursor: pointer;
+  font-size: 16px;
+  height: 40px;
   border-radius: 4px;
- /* z-index: 1000; *//* Ensure it's above other elements */
-left: -5px;
-display: flex;
-justify-content: left;
-margin-left: 165px;
-
+  cursor: pointer;
+  margin-right: 10px;
+  width: 160px;
 }
-.input-search{
+
+.input-search {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px; /* adds clean spacing between dropdown, input, and button */
 }
-.logo-style{
-  width:250px;
+
+.logo-style {
+  width: 250px;
   height: 250px;
+  border-radius: 50%; /* Makes it a circle */
+  object-fit: cover;  /* Ensures it fills the space nicely */
+  border: 3px solid #fff; /* Optional: adds a white border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow */
 }
+
 
 .login-modal-overlay {
   position: fixed; /* Cover the entire viewport */
@@ -276,10 +277,7 @@ margin-left: 165px;
   background-color: #e9ecef; /* Light gray on hover */
 }
 
-.home-container {
-  position: relative; /* Ensure relative positioning for absolute elements */
-  background-image: url('/public/images/la.jpg');
-}
+
 
 .tab-buttons {
   display: flex;

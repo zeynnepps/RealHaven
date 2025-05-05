@@ -90,7 +90,7 @@ const Chatbot = () => {
 
       {isOpen && (
         <div style={styles.chatbotWindow}>
-          <h3>RealHeaven AI Assistant</h3>
+          <h3>RealHaven AI Assistant</h3>
 
           <div style={styles.chatArea}>
             {messages.length === 0 ? (
