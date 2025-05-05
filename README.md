@@ -1,6 +1,4 @@
-# RealHaven
-
-# Real Estate Website Project
+# 🏡 RealHaven – AI-Powered Real Estate Platform
 
 ## 📌 Overview
 📍 Built for San Jose – Tailored specifically to the local market
@@ -16,8 +14,6 @@
 🚀 Simplified Experience – Makes home search faster and more informed
 
 ---
-
-# 🏡 RealHaven – AI-Powered Real Estate Platform
 
 This guide will help you clone, set up, and run the **RealHaven** project locally on a MacBook. It includes setup instructions for both the backend (Django) and frontend (React).
 
