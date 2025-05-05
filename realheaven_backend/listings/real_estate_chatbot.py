@@ -10,11 +10,11 @@ from spacy.language import Language
 from xgboost import XGBRegressor
 
 # Load real estate data
-file_path = "/Users/rgvmingudiya/Documents/RealHaven/real_estate_data_with_images_v1.csv"
+file_path = "/Users/zeynepsalihoglu/Downloads/RealHaven/data_part/real_estate_data_v3.csv"
 df = pd.read_csv(file_path)
 
 # Load trained models
-nlp = spacy.load("/Users/rgvmingudiya/Documents/RealHaven/realheaven_backend/RealHaven_Models/real_estate_nlp_model")  # Load NLP model
+nlp = spacy.load("/Users/zeynepsalihoglu/Downloads/RealHaven/realheaven_backend/RealHaven_Models/real_estate_nlp_model")  # Load NLP model
 
 @Language.component("remove_money_ents")
 def remove_money_ents(doc):
