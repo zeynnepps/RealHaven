@@ -111,3 +111,13 @@ class CustomerLoginView(APIView):
                 return Response({"error": "Invalid password"}, status=status.HTTP_401_UNAUTHORIZED)
         except Customer.DoesNotExist:
             return Response({"error": "Customer not found"}, status=status.HTTP_404_NOT_FOUND)
+
+
+class PropertyListingTypeView(generics.ListAPIView):
+    serializer_class = PropertySerializer
+
+    def get_queryset(self):
+        listing_type = self.request.query_params.get('listing_type')
+        if listing_type:
+            return Property.objects.filter(listing_type__iexact=listing_type)
+        return Property.objects.all()

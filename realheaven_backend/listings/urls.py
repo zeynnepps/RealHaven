@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import PropertyListView, PropertyDetailView,PropertySearchView, chatbot_api,CustomerSignupView, CustomerLoginView
+from .views import PropertyListView, PropertyDetailView,PropertySearchView, chatbot_api,CustomerSignupView, CustomerLoginView,PropertyListingTypeView
 
 urlpatterns = [
     path("properties/", PropertyListView.as_view(), name="property-list"),
@@ -8,4 +8,5 @@ urlpatterns = [
     path("chatbot/", chatbot_api, name="chatbot_api"),
     path('signup/', CustomerSignupView.as_view(), name='customer-signup'),
     path('login/', CustomerLoginView.as_view(), name='customer-login'),
+    path('properties/listing/', PropertyListingTypeView.as_view(), name='property-list'),
 ]
