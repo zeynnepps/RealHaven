@@ -88,17 +88,27 @@ const Home = () => {
     }
   };
 
-  const fetchPropertyDetails = async () =>{
-    try{
-       const response = await fetch('http://127.0.0.1:8000/api/properties/search/?'+selectedValue+'='+searchTerm);
-       console.log("response...", response);
-       const data = await response.json();
-       setfilteredProperties(data);
-     //  console.log("Data....", data);
-    }catch(e){
-      console.log("error..", e)
+  const fetchPropertyDetails = async () => {
+    if (!searchTerm.trim() || selectedValue === '0') return;
+  
+    const paramMap = {
+      address: "street_address",
+      zip_code: "zip_code",
+      property_type: "property_type"
+    };
+  
+    const backendParam = paramMap[selectedValue];
+    const query = `${backendParam}=${encodeURIComponent(searchTerm.trim())}`;
+  
+    try {
+      const response = await fetch(`http://127.0.0.1:8000/api/properties/search/?${query}`);
+      const data = await response.json();
+      setfilteredProperties(data);
+    } catch (e) {
+      console.error("Error fetching properties:", e);
     }
-  }
+  };
+  
 
   const fetchByListingType = async (type) => {
     try {

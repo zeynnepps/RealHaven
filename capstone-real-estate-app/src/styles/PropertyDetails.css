@@ -117,3 +117,43 @@
     color: black;
   }
   
+  .room-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  
+  .room-image-block {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .room-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .room-images-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .room-group {
+    margin-bottom: 30px;
+  }
+  
+  .room-item {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .room-img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
