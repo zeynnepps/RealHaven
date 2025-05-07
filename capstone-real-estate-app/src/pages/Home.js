@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import PropertyCard from "../components/PropertyCard";
 import Chatbot from "../components/Chatbot";
 import "../styles/Home.css";
+import { signup } from "../components/api";
+import { login } from "../components/api";
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -11,6 +13,15 @@ const Home = () => {
   const [isOpenPopup, setIsOpenPopup] = useState(false);
   const [filteredProperties, setfilteredProperties] = useState([]);
   const [selectedValue, setSelectedValue] = useState('0');
+  const [signupName, setSignupName] = useState('');
+  const [signupEmail, setSignupEmail] = useState('');
+  const [signupPassword, setSignupPassword] = useState('');
+  const [signupSuccess, setSignupSuccess] = useState(false);
+  const [signupError, setSignupError] = useState('');
+  const [loginEmail, setLoginEmail] = useState('');
+  const [loginPassword, setLoginPassword] = useState('');
+  const [loginError, setLoginError] = useState('');
+  const [loginSuccess, setLoginSuccess] = useState(false);
 
   const openLoginForm = () => {
     setLoginForm(true);
@@ -29,6 +40,7 @@ const Home = () => {
     setLoginForm(false)
   };
 
+
   // Handle change in dropdown selection
   const handleChange = (event) => {
    
@@ -38,6 +50,43 @@ const Home = () => {
     }
   };
 
+  const handleSignupSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await signup({ name: signupName, email: signupEmail, password: signupPassword });
+      setSignupSuccess(true);
+      setSignupError('');
+      setSignupName('');
+      setSignupEmail('');
+      setSignupPassword('');
+
+      setTimeout(() => {
+        setSignupSuccess(false);  // clear success message if desired
+        openLoginForm();          // switch to login form
+      }, 1500);
+      
+    } catch (err) {
+      setSignupError("Signup failed. Try a different email.");
+      setSignupSuccess(false);
+    }
+  };
+  
+  const handleLoginSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await login(loginEmail, loginPassword);
+      console.log("✅ Login success response:", response.data);
+      setLoginSuccess(true);
+      setLoginError('');
+      setLoginEmail('');
+      setLoginPassword('');
+      closeLoginForm();
+    } catch (err) {
+      console.error("❌ Login error:", err.response?.data || err.message);
+      setLoginError("Invalid email or password");
+      setLoginSuccess(false);
+    }
+  };
 
   const fetchPropertyDetails = async () =>{
     try{
@@ -131,54 +180,77 @@ const Home = () => {
               >New account</button>
             </div>
             
-           {(isLoginForm && !isSignupForm)&& (
-            <form>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Enter email"
-              />
-              <input
-                type="password"
-                id="password"
-                name="password"
-                placeholder="Enter password"
-              />
-              <button type="submit" className="submit-button">
-                Sign in
-              </button>
-              <a href="#" className="forgot-password">
-              Forgot your password?
-            </a>
-            </form> )}
+           {(isLoginForm && !isSignupForm) && (
+              <form onSubmit={handleLoginSubmit}>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter email"
+                  value={loginEmail}
+                  onChange={(e) => setLoginEmail(e.target.value)}
+                  required
+                />
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Enter password"
+                  value={loginPassword}
+                  onChange={(e) => setLoginPassword(e.target.value)}
+                  required
+                />
+                <button type="submit" className="submit-button">
+                  Sign in
+                </button>
+
+                {loginError && <p style={{ color: 'red' }}>{loginError}</p>}
+                {loginSuccess && <p style={{ color: 'green' }}>✅ Logged in successfully</p>}
+
+                <a href="#" className="forgot-password">
+                  Forgot your password?
+                </a>
+              </form>
+            )}
 
             {isSignupForm && (
-            <form name = "registration" >
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Enter your name"
-              />
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Enter your email"
-              />
+              <form name="registration" onSubmit={handleSignupSubmit}>
                 <input
-                type="text"
-                id="phone"
-                name="phone"
-                placeholder="Enter your phone number"
-              />
-              <button type="submit" className="submit-button">
-                Submit
-              </button>
-            </form>)}
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  value={signupName}
+                  onChange={(e) => setSignupName(e.target.value)}
+                  required
+                />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  value={signupEmail}
+                  onChange={(e) => setSignupEmail(e.target.value)}
+                  required
+                />
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Enter your password"
+                  value={signupPassword}
+                  onChange={(e) => setSignupPassword(e.target.value)}
+                  required
+                />
+                <button type="submit" className="submit-button">
+                  Submit
+                </button>
 
-            
+                {signupSuccess && <p style={{ color: "green" }}>✅ Signup successful!</p>}
+                {signupError && <p style={{ color: "red" }}>{signupError}</p>}
+              </form>
+            )}
+
           </div>
         </div>
       )}
