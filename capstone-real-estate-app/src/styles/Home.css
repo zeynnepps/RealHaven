@@ -1,3 +1,17 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1.home-title {
+  margin-top: 0 !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 /* Home Page Container */
 .home-container {
     text-align: center;
@@ -390,4 +404,42 @@
   border: none;
   border-radius: 6px;
   cursor: pointer;
+}
+
+.welcome-message {
+  position: absolute;
+  top: 10px;
+  right: 160px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logout-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.user-info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(44, 111, 64, 0.7);
+  padding: 8px 12px;
+  border-radius: 6px;
+  z-index: 1000;
 }

@@ -3,8 +3,7 @@ import React, { useState } from "react";
 import PropertyCard from "../components/PropertyCard";
 import Chatbot from "../components/Chatbot";
 import "../styles/Home.css";
-import { signup } from "../components/api";
-import { login } from "../components/api";
+import { signup, login } from "../components/api";
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -22,6 +21,8 @@ const Home = () => {
   const [loginPassword, setLoginPassword] = useState('');
   const [loginError, setLoginError] = useState('');
   const [loginSuccess, setLoginSuccess] = useState(false);
+  const [username, setUsername] = useState(localStorage.getItem("username"));
+  const [isLoggedIn, setIsLoggedIn] = useState(()=> !!localStorage.getItem("username"));
 
   const openLoginForm = () => {
     setLoginForm(true);
@@ -56,6 +57,10 @@ const Home = () => {
       await signup({ name: signupName, email: signupEmail, password: signupPassword });
       setSignupSuccess(true);
       setSignupError('');
+      localStorage.setItem("signupUsername", signupName);
+      localStorage.setItem("username", signupName);
+      localStorage.setItem(`user_name_for_${signupEmail}`, signupName);
+      setUsername(signupName);  
       setSignupName('');
       setSignupEmail('');
       setSignupPassword('');
@@ -75,11 +80,23 @@ const Home = () => {
     e.preventDefault();
     try {
       const response = await login(loginEmail, loginPassword);
-      console.log("✅ Login success response:", response.data);
+      console.log("✅ Login success response:", response);
+
+      // Get the name using the email from localStorage
+      const storedName = localStorage.getItem(`user_name_for_${loginEmail}`);
+      if (storedName) {
+        localStorage.setItem("username", storedName);  // for display
+        setUsername(storedName);
+      } else {
+        setUsername(null); // fallback
+      }
+
       setLoginSuccess(true);
       setLoginError('');
       setLoginEmail('');
       setLoginPassword('');
+      setIsLoggedIn(true);
+      setIsLoggedIn(true);
       closeLoginForm();
     } catch (err) {
       console.error("❌ Login error:", err.response?.data || err.message);
@@ -157,10 +174,25 @@ const Home = () => {
     )}
       
      <img src="images/logo.jpeg" className="logo-style"></img>
-      <button className="login-button" onClick={openLoginForm}>
-        Login
-      </button>
-      
+
+     {isLoggedIn ? (
+        <div className="user-info">
+          Welcome, <strong>{username}</strong>!
+          <button className="logout-button" onClick={() => {
+            localStorage.removeItem("username");
+            setUsername(null);
+            setIsLoggedIn(false);
+            setLoginSuccess(false);
+          }}>
+            Logout
+          </button>
+        </div>
+      ) : (
+        <button className="login-button" onClick={openLoginForm}>
+          Login
+        </button>
+      )}
+
       <div className="input-search">
       <div>
       <select className="search-type" value={selectedValue} onChange={handleChange}>

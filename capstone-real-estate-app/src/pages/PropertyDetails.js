@@ -40,7 +40,7 @@ const PropertyDetails = () => {
       <div className="room-group">
         <h3>🛁 Bathrooms</h3>
         {Object.entries(property)
-          .filter(([key, value]) => key.startsWith("bathroom") && typeof value === "string" && value.trim() !== ""        )
+          .filter(([key, value]) => key.startsWith("bathroom") && typeof value === "string" && value.trim() !== "")
           .map(([key, url]) => (
             <div key={key} className="room-item">
               <img src={url} alt={key} className="room-img" />
@@ -62,7 +62,6 @@ const PropertyDetails = () => {
           ))}
       </div>
 
-      {/* Other rooms */}
       {/* Other rooms */}
       {["kitchen", "dining", "living_room"].map((key) => {
         if (!property[key]) return null;
