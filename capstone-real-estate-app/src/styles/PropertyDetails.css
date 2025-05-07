@@ -72,16 +72,48 @@
   
   /* Back Button */
   .back-button {
-    text-decoration: none;
-    color: white;
-    background: linear-gradient(to right, #ff416c, #ff4b2b);
-    padding: 12px 20px;
-    border-radius: 25px;
-    font-weight: bold;
-    transition: 0.3s ease-in-out;
     display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #f857a6, #ff5858); /* pink to orange */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    text-align: center;
+  }
+  .back-button:hover {
+    background: linear-gradient(to right, #e64c99, #ff3d3d);
   }
   
-  .back-button:hover {
-    background: linear-gradient(to right, #ff4b2b, #ff416c);
+  .back-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
   }
+  
+  .circle-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to right, #f857a6, #ff5858);
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
+  .back-label {
+    color: black;
+  }
+  

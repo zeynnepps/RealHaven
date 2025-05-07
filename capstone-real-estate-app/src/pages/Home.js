@@ -64,7 +64,7 @@ const Home = () => {
         setSignupSuccess(false);  // clear success message if desired
         openLoginForm();          // switch to login form
       }, 1500);
-      
+
     } catch (err) {
       setSignupError("Signup failed. Try a different email.");
       setSignupSuccess(false);
@@ -100,6 +100,16 @@ const Home = () => {
     }
   }
 
+  const fetchByListingType = async (type) => {
+    try {
+      const response = await fetch(`http://127.0.0.1:8000/api/properties/listing/?listing_type=${encodeURIComponent(type)}`);
+      const data = await response.json();
+      setfilteredProperties(data);
+    } catch (error) {
+      console.error("❌ Failed to fetch properties by listing type:", error);
+    }
+  };
+  
   return (
     // <div className="home-container">
     <div
@@ -114,8 +124,8 @@ const Home = () => {
   >
       {/* ADDED Buy and Rent Buttons */}
       <div className="top-buttons">
-        <button className="buy-button">Buy</button>
-        <button className="rent-button">Rent</button>
+      <button className="buy-button" onClick={() => fetchByListingType('For Sale')}>Buy</button>
+      <button className="rent-button" onClick={() => fetchByListingType('Rent')}>Rent</button>
         <Link to="/visualizations">
           <button className="visualizations-button">Visualizations</button>
         </Link>
