@@ -22,10 +22,19 @@
   
   /* Main Title */
   .hero-section h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 15px;
     text-transform: uppercase;
+  }
+  
+  .home-title {
+    font-size: 1.8rem;       
+    font-weight: 700;
+    margin: 20px 0;          
+    color: #444;             
+    text-align: center;
+    text-transform: uppercase; 
   }
   
   /* Search Bar Styling */

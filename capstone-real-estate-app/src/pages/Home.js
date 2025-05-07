@@ -141,8 +141,7 @@ const Home = () => {
         </Link>
       </div>
       
-      <h1 className="home-title">Welcome to the Real Haven
-     </h1>
+      <h1 className="home-title">Welcome to the Real Haven </h1>
 
       {filteredProperties.length > 0 && (
       <div className="home-return-button">

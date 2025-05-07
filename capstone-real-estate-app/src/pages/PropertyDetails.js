@@ -8,7 +8,7 @@ const PropertyDetails = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const property = location.state?.property; // Access passed property data
-  const from = location.state?.from || "/";
+  // const from = location.state?.from || "/";
 
   //const property = location.state?.property || properties.find(p => p.id === parseInt(id));
 
@@ -63,17 +63,27 @@ const PropertyDetails = () => {
       </div>
 
       {/* Other rooms */}
-      {["kitchen", "dining", "living_room"].map((key) =>
-        property[key] ? (
-          <div key={key} className="room-group">
-            <h3>{key.charAt(0).toUpperCase() + key.slice(1).replace("_", " ")}</h3>
+      {/* Other rooms */}
+      {["kitchen", "dining", "living_room"].map((key) => {
+        if (!property[key]) return null;
+
+        const titles = {
+          kitchen: "🍳 Kitchen",
+          dining: "🍽 Dining Room",
+          living_room: "🛋 Living Room",
+        };
+
+        return (
+          <div key={key} className="room-item">
+            <h3>{titles[key]}</h3>
             <img src={property[key]} alt={key} className="room-img" />
           </div>
-        ) : null
-      )}
+        );
+      })}
+
     </div>
 
-        <button onClick={() => navigate(from)} className="back-wrapper">
+        <button onClick={() => navigate(-1)} className="back-wrapper">
           <span className="circle-icon">←</span>
           <span className="back-label">Back</span>
         </button>

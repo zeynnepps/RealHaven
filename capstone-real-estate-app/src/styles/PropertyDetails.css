@@ -1,13 +1,13 @@
 /* Property Details Page Container */
 .details-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(to right, #667eea, #764ba2);
-    padding: 50px;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #7aadda, #7aadda);
+  padding: 50px;
+}
+
   /* Property Card */
   .details-card {
     background: white;
@@ -70,6 +70,22 @@
     margin-bottom: 20px;
   }
   
+  .details-card p {
+    font-size: 1.2rem;
+    margin: 12px 0;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  .details-card h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #111;
+  }
+
+
   /* Back Button */
   .back-button {
     display: inline-block;
@@ -145,15 +161,25 @@
     margin-bottom: 30px;
   }
   
-  .room-item {
-    display: inline-block;
+  .room-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
     margin: 10px;
   }
   
-  .room-img {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
+  .room-item {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .room-group h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
   }
   
