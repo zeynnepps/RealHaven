@@ -35,7 +35,7 @@ def chatbot_api(request):
             
             
             formatted_response = format_chatbot_response(filters, response.get("properties", []), response.get("message"))
-             
+            print("Final API response: ", formatted_response)
             return JsonResponse(formatted_response, status=200)
 
         except json.JSONDecodeError:

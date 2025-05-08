@@ -45,13 +45,20 @@ const Chatbot = () => {
 
       console.log("🧠 Backend Response:", res.data);
 
+      let dataStr = typeof res.data === "string" ? res.data : JSON.stringify(res.data);
+  
+      // Replace unquoted NaN with null
+      dataStr = dataStr.replace(/\bNaN\b/g, "null");
+    
+      const parsed = JSON.parse(dataStr);
+    
       setMessages((prev) => [
         ...prev,
         {
           sender: "bot",
-          message: res.data.message || null,
-          recommendations: res.data.recommendations || [],
-          filters: res.data.query_interpretation || {},
+          message: parsed.message || null,
+          recommendations: parsed.recommendations || [],
+          filters: parsed.query_interpretation || {},
         },
       ]);
     } catch (error) {
@@ -65,22 +72,27 @@ const Chatbot = () => {
     }
   };
 
-  const renderPropertyCard = (property) => (
-    <div key={property["Street Address"]} style={styles.propertyCard}>
-      <h5>{property["Street Address"]}</h5>
-      <p>City: {property.City}</p>
-      <p>Price: ${property.Price.toLocaleString()}</p>
-      <p>Bedrooms: {property.Bedrooms}</p>
-      <p>Bathrooms: {property.Bathrooms}</p>
-      <p>Square Footage: {property["Square Footage"]} sqft</p>
-      <p>Type: {property["Property Type"]}</p>
-      <img
-        src={img_path_prefix + property.Image_Path}
-        alt={property["Street Address"]}
-        style={styles.propertyImage}
-      />
-    </div>
+  const renderPropertyCard = (property) => {
+    console.log("🧾 Property Card:", property);
+    return (
+      <div key={property["Street Address"]} style={styles.propertyCard}>
+        <h5>{property["Street Address"] || "No such address"}</h5>
+        <p>City: {property.City || "Unknown" }</p>
+        <p>Price: ${property.Price ? property.Price.toLocaleString() : "N/A"}</p>
+        <p>Bedrooms: {property.Bedrooms || "N/A"}</p>
+        <p>Bathrooms: {property.Bathrooms || "N/A"}</p>
+        <p>Square Footage: {property["Square Footage"] || "N/A"} sqft</p>
+        <p>Type: {property["Property Type"] || "N/A" }</p>
+        {property.Image_Path && (
+        <img
+          src={img_path_prefix + property.Image_Path}
+          alt={property["Street Address"]}
+          style={styles.propertyImage}
+        />
+        )}
+      </div>
   );
+};
 
   return (
     <div style={styles.chatbotContainer}>
@@ -115,7 +127,8 @@ const Chatbot = () => {
                           💬 {msg.message}
                         </div>
                       )}
-                      {msg.recommendations && msg.recommendations.length > 0 ? (
+                      {console.log("Recommendations?",msg.recommendations)}
+                      {Array.isArray(msg.recommendations) && msg.recommendations.length > 0 ? (
                         <div>
                           <h4>🏡 Matching Properties:</h4>
                           {msg.recommendations.map(renderPropertyCard)}
